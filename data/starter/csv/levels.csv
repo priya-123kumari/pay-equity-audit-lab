@@ -1,0 +1,11 @@
+level_id,level_number,level_name,midpoint_multiplier,range_spread_pct
+L1,1,Associate,1.0,0.3
+L10,10,Senior Vice President,3.004,0.39
+L2,2,Junior,1.13,0.31
+L3,3,Intermediate,1.2769,0.32
+L4,4,Senior,1.4429,0.33
+L5,5,Lead,1.6305,0.34
+L6,6,Principal,1.8424,0.35
+L7,7,Director,2.082,0.36
+L8,8,Senior Director,2.3526,0.37
+L9,9,Vice President,2.6584,0.38

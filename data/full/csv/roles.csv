@@ -1,0 +1,21 @@
+role_id,role_name,role_family,l1_midpoint_usd,status
+ACCM,Account Manager,GTM,52000.0,ACTIVE
+ACCT,Accountant,PPL,45000.0,ACTIVE
+BIAN,BI Analyst,DATA,50000.0,ACTIVE
+DANL,Data Analyst,DATA,52000.0,ACTIVE
+DENG,Data Engineer,ENG,70000.0,ACTIVE
+DEVOPS,DevOps Engineer,ENG,68000.0,ACTIVE
+DSCI,Data Scientist,DATA,70000.0,ACTIVE
+HRP,HR Partner,PPL,48000.0,ACTIVE
+ITAD,IT Administrator,OPS,44000.0,ACTIVE
+MKTG,Marketing Specialist,GTM,46000.0,ACTIVE
+MLE,ML Engineer,DATA,78000.0,ACTIVE
+OPSA,Operations Analyst,OPS,42000.0,ACTIVE
+PM,Product Manager,PRD,72000.0,ACTIVE
+QAE,QA Engineer,ENG,55000.0,ACTIVE
+RECR,Recruiter,PPL,42000.0,ACTIVE
+SREP,Sales Representative,GTM,45000.0,ACTIVE
+SUPP,Support Specialist,OPS,36000.0,ACTIVE
+SWE,Software Engineer,ENG,70000.0,ACTIVE
+TWR,Technical Writer,PRD,45000.0,ACTIVE
+UXD,UX Designer,PRD,58000.0,ACTIVE

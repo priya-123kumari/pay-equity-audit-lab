@@ -1,0 +1,9 @@
+location_id,city,country,currency,col_index,status
+AUS,Austin,United States,USD,1.0,ACTIVE
+BER,Berlin,Germany,EUR,0.9,ACTIVE
+BLR,Bengaluru,India,INR,0.32,ACTIVE
+DEL,Delhi,India,INR,0.3,ACTIVE
+LON,London,United Kingdom,GBP,0.95,ACTIVE
+NYC,New York,United States,USD,1.15,ACTIVE
+SIN,Singapore,Singapore,SGD,0.95,ACTIVE
+TOR,Toronto,Canada,CAD,0.85,ACTIVE

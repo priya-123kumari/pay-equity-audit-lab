@@ -1,0 +1,9 @@
+event_id,proposal_id,event_seq,from_status,to_status,event_date,actor_role,actor_id,comment
+AEV-000001,ADJ-2026-000001,1,,DRAFT,2026-10-03,SYSTEM,,Auto-drafted from unexplained-gap analysis
+AEV-000002,ADJ-2026-000001,2,DRAFT,SUBMITTED,2026-10-04,HR_PARTNER,EMP-000116,Evidence reviewed and submitted
+AEV-000005,ADJ-2026-000002,1,,DRAFT,2026-10-15,SYSTEM,,Auto-drafted from unexplained-gap analysis
+AEV-000006,ADJ-2026-000002,2,DRAFT,SUBMITTED,2026-10-16,HR_PARTNER,EMP-000189,Evidence reviewed and submitted
+AEV-000007,ADJ-2026-000002,3,SUBMITTED,REJECTED,2026-10-18,HR_PARTNER,EMP-000189,Policy: no pay reductions; referred to compensation committee
+AEV-000008,ADJ-2026-000003,1,,DRAFT,2026-10-19,SYSTEM,,Auto-drafted from unexplained-gap analysis
+AEV-000009,ADJ-2026-000003,2,DRAFT,SUBMITTED,2026-10-20,HR_PARTNER,EMP-000028,Evidence reviewed and submitted
+AEV-000010,ADJ-2026-000001,3,SUBMITTED,APPLIED,2026-10-06,SYSTEM_ADMIN,,Applied to payroll

@@ -1,0 +1,13 @@
+gt_id,entity_type,entity_id,issue_type,expected_detection_rule,expected_decision,context
+GT-00001,EMPLOYEE,EMP-000032,UNEXPLAINED_OUTLIER,"|robust z| of residual after rating/tenure/premium model > threshold, no documented evidence",CREATE_ADJUSTMENT_PROPOSAL,off-cycle change x0.7579 on 2026-07-28 (SAL-EMP-000032-2026-02) without documented factor
+GT-00002,EMPLOYEE,EMP-000071,UNEXPLAINED_OUTLIER,"|robust z| of residual after rating/tenure/premium model > threshold, no documented evidence",REFER_TO_COMPENSATION_COMMITTEE,off-cycle change x1.3233 on 2026-07-23 (SAL-EMP-000071-2026-02) without documented factor
+GT-00003,EMPLOYEE,EMP-000124,UNEXPLAINED_OUTLIER,"|robust z| of residual after rating/tenure/premium model > threshold, no documented evidence",CREATE_ADJUSTMENT_PROPOSAL,off-cycle change x0.7708 on 2026-08-13 (SAL-EMP-000124-2026-02) without documented factor
+GT-00004,SNAPSHOT,CRS-EMP-000111-2026-10,EXPIRED_BAND_COMPARISON,band_id_used.effective_to < snapshot_date,RECOMPUTE_WITH_CURRENT_BAND,compared against BAND-SWE-L3-DEL-2025
+GT-00005,SNAPSHOT,CRS-EMP-000191-2026-10,EXPIRED_BAND_COMPARISON,band_id_used.effective_to < snapshot_date,RECOMPUTE_WITH_CURRENT_BAND,compared against BAND-DEVOPS-L3-SIN-2025
+GT-00006,SNAPSHOT,CRS-EMP-000057-2026-10,FTE_IGNORED,fte_applied = 0 and fte < 1,RECOMPUTE_WITH_FTE_NORMALIZATION,raw part-time pay used (fte=0.8)
+GT-00007,SNAPSHOT,CRS-EMP-000091-2026-10,FTE_IGNORED,fte_applied = 0 and fte < 1,RECOMPUTE_WITH_FTE_NORMALIZATION,raw part-time pay used (fte=0.8)
+GT-00008,SNAPSHOT,CRS-EMP-000011-2026-10,CURRENCY_CONVERSION_MISSING,salary_currency != USD and fx_applied = 0,RECOMPUTE_WITH_FX_CONVERSION,GBP salary compared against USD band BAND-DANL-L6-NYC-2026
+GT-00009,SNAPSHOT,CRS-EMP-000082-2026-10,CURRENCY_CONVERSION_MISSING,salary_currency != USD and fx_applied = 0,RECOMPUTE_WITH_FX_CONVERSION,INR salary compared against USD band BAND-DANL-L3-NYC-2026
+GT-00010,GROUP,CG-MANUAL-0001,INCOMPARABLE_GROUP_NO_RATIONALE,group spans >1 role family and rationale is null,DISSOLVE_OR_DOCUMENT_RATIONALE,"mixed families GTM + PRD, no rationale"
+GT-00011,GROUP,CG-MANUAL-0002,INCOMPARABLE_GROUP_NO_RATIONALE,group spans >1 role family and rationale is null,DISSOLVE_OR_DOCUMENT_RATIONALE,"mixed families ENG + PRD, no rationale"
+GT-00012,PROPOSAL,ADJ-2026-000001,ADJUSTMENT_WITHOUT_APPROVAL,status = APPLIED and no MANAGER_APPROVED/HR_APPROVED events,REVERSE_AND_ESCALATE_TO_AUDIT,approval stages skipped before payroll application

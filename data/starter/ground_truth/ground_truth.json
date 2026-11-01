@@ -1,0 +1,110 @@
+[
+ {
+  "gt_id":"GT-00001",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-000032",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"CREATE_ADJUSTMENT_PROPOSAL",
+  "context":"off-cycle change x0.7579 on 2026-07-28 (SAL-EMP-000032-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00002",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-000071",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"REFER_TO_COMPENSATION_COMMITTEE",
+  "context":"off-cycle change x1.3233 on 2026-07-23 (SAL-EMP-000071-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00003",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-000124",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"CREATE_ADJUSTMENT_PROPOSAL",
+  "context":"off-cycle change x0.7708 on 2026-08-13 (SAL-EMP-000124-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00004",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-000111-2026-10",
+  "issue_type":"EXPIRED_BAND_COMPARISON",
+  "expected_detection_rule":"band_id_used.effective_to < snapshot_date",
+  "expected_decision":"RECOMPUTE_WITH_CURRENT_BAND",
+  "context":"compared against BAND-SWE-L3-DEL-2025"
+ },
+ {
+  "gt_id":"GT-00005",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-000191-2026-10",
+  "issue_type":"EXPIRED_BAND_COMPARISON",
+  "expected_detection_rule":"band_id_used.effective_to < snapshot_date",
+  "expected_decision":"RECOMPUTE_WITH_CURRENT_BAND",
+  "context":"compared against BAND-DEVOPS-L3-SIN-2025"
+ },
+ {
+  "gt_id":"GT-00006",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-000057-2026-10",
+  "issue_type":"FTE_IGNORED",
+  "expected_detection_rule":"fte_applied = 0 and fte < 1",
+  "expected_decision":"RECOMPUTE_WITH_FTE_NORMALIZATION",
+  "context":"raw part-time pay used (fte=0.8)"
+ },
+ {
+  "gt_id":"GT-00007",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-000091-2026-10",
+  "issue_type":"FTE_IGNORED",
+  "expected_detection_rule":"fte_applied = 0 and fte < 1",
+  "expected_decision":"RECOMPUTE_WITH_FTE_NORMALIZATION",
+  "context":"raw part-time pay used (fte=0.8)"
+ },
+ {
+  "gt_id":"GT-00008",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-000011-2026-10",
+  "issue_type":"CURRENCY_CONVERSION_MISSING",
+  "expected_detection_rule":"salary_currency != USD and fx_applied = 0",
+  "expected_decision":"RECOMPUTE_WITH_FX_CONVERSION",
+  "context":"GBP salary compared against USD band BAND-DANL-L6-NYC-2026"
+ },
+ {
+  "gt_id":"GT-00009",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-000082-2026-10",
+  "issue_type":"CURRENCY_CONVERSION_MISSING",
+  "expected_detection_rule":"salary_currency != USD and fx_applied = 0",
+  "expected_decision":"RECOMPUTE_WITH_FX_CONVERSION",
+  "context":"INR salary compared against USD band BAND-DANL-L3-NYC-2026"
+ },
+ {
+  "gt_id":"GT-00010",
+  "entity_type":"GROUP",
+  "entity_id":"CG-MANUAL-0001",
+  "issue_type":"INCOMPARABLE_GROUP_NO_RATIONALE",
+  "expected_detection_rule":"group spans >1 role family and rationale is null",
+  "expected_decision":"DISSOLVE_OR_DOCUMENT_RATIONALE",
+  "context":"mixed families GTM + PRD, no rationale"
+ },
+ {
+  "gt_id":"GT-00011",
+  "entity_type":"GROUP",
+  "entity_id":"CG-MANUAL-0002",
+  "issue_type":"INCOMPARABLE_GROUP_NO_RATIONALE",
+  "expected_detection_rule":"group spans >1 role family and rationale is null",
+  "expected_decision":"DISSOLVE_OR_DOCUMENT_RATIONALE",
+  "context":"mixed families ENG + PRD, no rationale"
+ },
+ {
+  "gt_id":"GT-00012",
+  "entity_type":"PROPOSAL",
+  "entity_id":"ADJ-2026-000001",
+  "issue_type":"ADJUSTMENT_WITHOUT_APPROVAL",
+  "expected_detection_rule":"status = APPLIED and no MANAGER_APPROVED\/HR_APPROVED events",
+  "expected_decision":"REVERSE_AND_ESCALATE_TO_AUDIT",
+  "context":"approval stages skipped before payroll application"
+ }
+]

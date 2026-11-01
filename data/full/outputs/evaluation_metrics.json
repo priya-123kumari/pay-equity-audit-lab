@@ -1,0 +1,155 @@
+{
+  "detection": {
+    "ADJUSTMENT_WITHOUT_APPROVAL": {
+      "detected": 7,
+      "false_negative": 0,
+      "false_positive": 0,
+      "ground_truth": 7,
+      "precision": 1.0,
+      "recall": 1.0,
+      "true_positive": 7
+    },
+    "CURRENCY_CONVERSION_MISSING": {
+      "detected": 30,
+      "false_negative": 0,
+      "false_positive": 0,
+      "ground_truth": 30,
+      "precision": 1.0,
+      "recall": 1.0,
+      "true_positive": 30
+    },
+    "EXPIRED_BAND_COMPARISON": {
+      "detected": 40,
+      "false_negative": 0,
+      "false_positive": 0,
+      "ground_truth": 40,
+      "precision": 1.0,
+      "recall": 1.0,
+      "true_positive": 40
+    },
+    "FTE_IGNORED": {
+      "detected": 40,
+      "false_negative": 0,
+      "false_positive": 0,
+      "ground_truth": 40,
+      "precision": 1.0,
+      "recall": 1.0,
+      "true_positive": 40
+    },
+    "INCOMPARABLE_GROUP_NO_RATIONALE": {
+      "detected": 8,
+      "false_negative": 0,
+      "false_positive": 0,
+      "ground_truth": 8,
+      "precision": 1.0,
+      "recall": 1.0,
+      "true_positive": 8
+    },
+    "UNEXPLAINED_OUTLIER": {
+      "detected": 78,
+      "false_negative": 0,
+      "false_positive": 3,
+      "ground_truth": 75,
+      "precision": 0.9615,
+      "recall": 1.0,
+      "true_positive": 75
+    }
+  },
+  "distributions": {
+    "active": 4734,
+    "analysis_status": {
+      "EXCEPTION": 110,
+      "OK": 4624
+    },
+    "change_reason_counts": {
+      "ANNUAL_REVIEW": 10502,
+      "FTE_CHANGE": 308,
+      "HIRE": 2225,
+      "OFF_CYCLE_ADJUSTMENT": 75,
+      "PROMOTION": 691,
+      "PROPOSAL_ADJUSTMENT": 21,
+      "RELOCATION_CURRENCY_CHANGE": 110
+    },
+    "compa_ratio_clean_rows": {
+      "25%": 1.0012,
+      "5%": 0.9452,
+      "50%": 1.0482,
+      "75%": 1.1124,
+      "95%": 1.2217,
+      "count": 4624.0,
+      "max": 1.7772,
+      "mean": 1.0619,
+      "min": 0.6806,
+      "std": 0.0906
+    },
+    "comparable_groups": 374,
+    "currency_mix": {
+      "CAD": 426,
+      "EUR": 404,
+      "GBP": 464,
+      "INR": 2245,
+      "SGD": 415,
+      "USD": 1046
+    },
+    "employees": 5000,
+    "exception_types": {
+      "CURRENCY_CONVERSION_MISSING": 30,
+      "EXPIRED_BAND_COMPARISON": 40,
+      "FTE_IGNORED": 40
+    },
+    "flag_confidence": {
+      "HIGH": 72,
+      "LOW": 6
+    },
+    "flagged": 78,
+    "fte_mix": {
+      "0.5": 630,
+      "0.6": 472,
+      "0.8": 840,
+      "1.0": 11990
+    },
+    "groups_below_min_size": 105,
+    "groups_meeting_min_size": 269,
+    "level_distribution": {
+      "L1": 1080,
+      "L10": 2,
+      "L2": 1087,
+      "L3": 1025,
+      "L4": 783,
+      "L5": 526,
+      "L6": 305,
+      "L7": 138,
+      "L8": 44,
+      "L9": 10
+    },
+    "model": {
+      "intercept": -0.005790129486076068,
+      "premium_coef": 1.010266977634218,
+      "rating_coef": 0.047805784060467676,
+      "robust_sigma": 0.03583396727499177,
+      "tenure_coef": 0.011854111646960916,
+      "z_threshold": 3.5
+    },
+    "pct_in_band_clean_rows": 0.8733,
+    "proposals_by_status": {
+      "APPLIED": 21,
+      "HR_APPROVED": 8,
+      "MANAGER_APPROVED": 11,
+      "REJECTED": 38
+    },
+    "range_position_clean_rows": {
+      "25%": 0.5036,
+      "5%": 0.3243,
+      "50%": 0.6507,
+      "75%": 0.8474,
+      "95%": 1.1793,
+      "count": 4624.0,
+      "max": 2.7849,
+      "mean": 0.6895,
+      "min": -0.5657,
+      "std": 0.2781
+    },
+    "salary_records": 13932,
+    "salary_records_per_employee": 2.79
+  }
+}

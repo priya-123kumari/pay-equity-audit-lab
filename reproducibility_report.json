@@ -1,0 +1,15 @@
+{
+  "seed": 20261022,
+  "employees": 5000,
+  "files_compared": 38,
+  "differing_files": [],
+  "row_counts_equal": true,
+  "result": "REPRODUCIBLE",
+  "sample_checksums": {
+    "csv/adjustment_proposals.csv": "388e90686d1ca4eaa5e95ee19d31e53a35b7585e7a276fe19ad866ae3e78e6d7",
+    "csv/approval_events.csv": "6c1dad98e5a70a65af9b7030d5105c5bf64a952e354fdc958c790bba3bfeadfa",
+    "csv/compa_ratio_snapshots.csv": "765ee68c7eae7576ada2bef20523e8daebec15de9bcfebc7a22b0a69d0161d8f",
+    "csv/comparable_group_members.csv": "01abba4e1cae8d44abfd9084d9903ba186e2cb4f21e550e14df24fac7be31148",
+    "csv/comparable_groups.csv": "3b215b44b5e96c9e8d2685c113f0c2e60bec31af2286293c1d254727cada8631"
+  }
+}

@@ -1,0 +1,1032 @@
+{
+  "checks": {
+    "applied_has_salary_record": {
+      "rows_checked": 3,
+      "violations": 0
+    },
+    "applied_requires_approvals": {
+      "rows_checked": 3,
+      "violations": 1
+    },
+    "band_dates_and_levels": {
+      "rows_checked": 4800,
+      "violations": 0
+    },
+    "duplicate_group_members": {
+      "rows_checked": 212,
+      "violations": 0
+    },
+    "duplicate_roles_levels_locations": {
+      "rows_checked": 38,
+      "violations": 0
+    },
+    "duplicate_salary_rows": {
+      "rows_checked": 555,
+      "violations": 0
+    },
+    "employee_dates": {
+      "rows_checked": 200,
+      "violations": 0
+    },
+    "enum:AdjustmentProposal.currency": {
+      "rows_checked": 3,
+      "violations": 0
+    },
+    "enum:AdjustmentProposal.status": {
+      "rows_checked": 3,
+      "violations": 0
+    },
+    "enum:AdjustmentProposal.trigger_type": {
+      "rows_checked": 3,
+      "violations": 0
+    },
+    "enum:ApprovalEvent.actor_role": {
+      "rows_checked": 8,
+      "violations": 0
+    },
+    "enum:ApprovalEvent.from_status": {
+      "rows_checked": 5,
+      "violations": 0
+    },
+    "enum:ApprovalEvent.to_status": {
+      "rows_checked": 8,
+      "violations": 0
+    },
+    "enum:CompaRatioSnapshot.band_currency": {
+      "rows_checked": 191,
+      "violations": 0
+    },
+    "enum:CompaRatioSnapshot.salary_currency": {
+      "rows_checked": 191,
+      "violations": 0
+    },
+    "enum:ComparableGroup.grouping_basis": {
+      "rows_checked": 127,
+      "violations": 0
+    },
+    "enum:ComparableGroup.role_family": {
+      "rows_checked": 124,
+      "violations": 0
+    },
+    "enum:ComparableGroup.status": {
+      "rows_checked": 127,
+      "violations": 0
+    },
+    "enum:CompensationBand.currency": {
+      "rows_checked": 4800,
+      "violations": 0
+    },
+    "enum:CompensationBand.status": {
+      "rows_checked": 4800,
+      "violations": 0
+    },
+    "enum:Employee.status": {
+      "rows_checked": 200,
+      "violations": 0
+    },
+    "enum:FXRate.currency": {
+      "rows_checked": 18,
+      "violations": 0
+    },
+    "enum:Location.currency": {
+      "rows_checked": 8,
+      "violations": 0
+    },
+    "enum:Location.status": {
+      "rows_checked": 8,
+      "violations": 0
+    },
+    "enum:PerformanceEvidence.evidence_type": {
+      "rows_checked": 419,
+      "violations": 0
+    },
+    "enum:PerformanceEvidence.rating": {
+      "rows_checked": 383,
+      "violations": 0
+    },
+    "enum:Role.role_family": {
+      "rows_checked": 20,
+      "violations": 0
+    },
+    "enum:Role.status": {
+      "rows_checked": 20,
+      "violations": 0
+    },
+    "enum:SalaryRecord.change_reason": {
+      "rows_checked": 555,
+      "violations": 0
+    },
+    "enum:SalaryRecord.currency": {
+      "rows_checked": 555,
+      "violations": 0
+    },
+    "enum:Tenure.tenure_band": {
+      "rows_checked": 200,
+      "violations": 0
+    },
+    "evidence_after_hire": {
+      "rows_checked": 419,
+      "violations": 0
+    },
+    "evidence_type_fields": {
+      "rows_checked": 419,
+      "violations": 0
+    },
+    "fk:AdjustmentProposal.band_id->CompensationBand.band_id": {
+      "rows_checked": 3,
+      "violations": 0
+    },
+    "fk:AdjustmentProposal.created_by->Employee.employee_id": {
+      "rows_checked": 3,
+      "violations": 0
+    },
+    "fk:AdjustmentProposal.employee_id->Employee.employee_id": {
+      "rows_checked": 3,
+      "violations": 0
+    },
+    "fk:AdjustmentProposal.group_id->ComparableGroup.group_id": {
+      "rows_checked": 3,
+      "violations": 0
+    },
+    "fk:AdjustmentProposal.salary_id->SalaryRecord.salary_id": {
+      "rows_checked": 3,
+      "violations": 0
+    },
+    "fk:AdjustmentProposal.snapshot_id->CompaRatioSnapshot.snapshot_id": {
+      "rows_checked": 3,
+      "violations": 0
+    },
+    "fk:ApprovalEvent.actor_id->Employee.employee_id": {
+      "rows_checked": 4,
+      "violations": 0
+    },
+    "fk:ApprovalEvent.proposal_id->AdjustmentProposal.proposal_id": {
+      "rows_checked": 8,
+      "violations": 0
+    },
+    "fk:CompaRatioSnapshot.band_id_used->CompensationBand.band_id": {
+      "rows_checked": 191,
+      "violations": 0
+    },
+    "fk:CompaRatioSnapshot.employee_id->Employee.employee_id": {
+      "rows_checked": 191,
+      "violations": 0
+    },
+    "fk:CompaRatioSnapshot.salary_id->SalaryRecord.salary_id": {
+      "rows_checked": 191,
+      "violations": 0
+    },
+    "fk:ComparableGroup.level_id->Level.level_id": {
+      "rows_checked": 124,
+      "violations": 0
+    },
+    "fk:ComparableGroup.location_id->Location.location_id": {
+      "rows_checked": 124,
+      "violations": 0
+    },
+    "fk:ComparableGroupMember.employee_id->Employee.employee_id": {
+      "rows_checked": 212,
+      "violations": 0
+    },
+    "fk:ComparableGroupMember.group_id->ComparableGroup.group_id": {
+      "rows_checked": 212,
+      "violations": 0
+    },
+    "fk:ComparableGroupMember.level_id->Level.level_id": {
+      "rows_checked": 212,
+      "violations": 0
+    },
+    "fk:ComparableGroupMember.location_id->Location.location_id": {
+      "rows_checked": 212,
+      "violations": 0
+    },
+    "fk:ComparableGroupMember.role_id->Role.role_id": {
+      "rows_checked": 212,
+      "violations": 0
+    },
+    "fk:CompensationBand.level_id->Level.level_id": {
+      "rows_checked": 4800,
+      "violations": 0
+    },
+    "fk:CompensationBand.location_id->Location.location_id": {
+      "rows_checked": 4800,
+      "violations": 0
+    },
+    "fk:CompensationBand.role_id->Role.role_id": {
+      "rows_checked": 4800,
+      "violations": 0
+    },
+    "fk:CompensationBand.supersedes_band_id->CompensationBand.band_id": {
+      "rows_checked": 3200,
+      "violations": 0
+    },
+    "fk:Employee.manager_id->Employee.employee_id": {
+      "rows_checked": 199,
+      "violations": 0
+    },
+    "fk:PerformanceEvidence.employee_id->Employee.employee_id": {
+      "rows_checked": 419,
+      "violations": 0
+    },
+    "fk:Promotion.employee_id->Employee.employee_id": {
+      "rows_checked": 27,
+      "violations": 0
+    },
+    "fk:Promotion.from_level_id->Level.level_id": {
+      "rows_checked": 27,
+      "violations": 0
+    },
+    "fk:Promotion.role_id->Role.role_id": {
+      "rows_checked": 27,
+      "violations": 0
+    },
+    "fk:Promotion.salary_id->SalaryRecord.salary_id": {
+      "rows_checked": 27,
+      "violations": 0
+    },
+    "fk:Promotion.to_level_id->Level.level_id": {
+      "rows_checked": 27,
+      "violations": 0
+    },
+    "fk:SalaryRecord.adjustment_id->AdjustmentProposal.proposal_id": {
+      "rows_checked": 1,
+      "violations": 0
+    },
+    "fk:SalaryRecord.band_id->CompensationBand.band_id": {
+      "rows_checked": 555,
+      "violations": 0
+    },
+    "fk:SalaryRecord.employee_id->Employee.employee_id": {
+      "rows_checked": 555,
+      "violations": 0
+    },
+    "fk:SalaryRecord.level_id->Level.level_id": {
+      "rows_checked": 555,
+      "violations": 0
+    },
+    "fk:SalaryRecord.location_id->Location.location_id": {
+      "rows_checked": 555,
+      "violations": 0
+    },
+    "fk:SalaryRecord.promotion_id->Promotion.promotion_id": {
+      "rows_checked": 27,
+      "violations": 0
+    },
+    "fk:SalaryRecord.role_id->Role.role_id": {
+      "rows_checked": 555,
+      "violations": 0
+    },
+    "fk:Tenure.employee_id->Employee.employee_id": {
+      "rows_checked": 200,
+      "violations": 0
+    },
+    "ground_truth_ids_exist": {
+      "rows_checked": 12,
+      "violations": 0
+    },
+    "ground_truth_not_in_inputs": {
+      "rows_checked": 140,
+      "violations": 0
+    },
+    "group_comparability": {
+      "rows_checked": 127,
+      "violations": 2
+    },
+    "group_member_count": {
+      "rows_checked": 127,
+      "violations": 0
+    },
+    "group_member_matches_snapshot_position": {
+      "rows_checked": 212,
+      "violations": 0
+    },
+    "group_rule_membership": {
+      "rows_checked": 212,
+      "violations": 0
+    },
+    "id_format:AdjustmentProposal.proposal_id": {
+      "rows_checked": 3,
+      "violations": 0
+    },
+    "id_format:ApprovalEvent.event_id": {
+      "rows_checked": 8,
+      "violations": 0
+    },
+    "id_format:CompaRatioSnapshot.snapshot_id": {
+      "rows_checked": 191,
+      "violations": 0
+    },
+    "id_format:ComparableGroup.group_id": {
+      "rows_checked": 127,
+      "violations": 0
+    },
+    "id_format:CompensationBand.band_id": {
+      "rows_checked": 4800,
+      "violations": 0
+    },
+    "id_format:Employee.employee_id": {
+      "rows_checked": 200,
+      "violations": 0
+    },
+    "id_format:FXRate.fx_id": {
+      "rows_checked": 18,
+      "violations": 0
+    },
+    "id_format:PerformanceEvidence.evidence_id": {
+      "rows_checked": 419,
+      "violations": 0
+    },
+    "id_format:Promotion.promotion_id": {
+      "rows_checked": 27,
+      "violations": 0
+    },
+    "id_format:SalaryRecord.salary_id": {
+      "rows_checked": 555,
+      "violations": 0
+    },
+    "id_format:Tenure.tenure_id": {
+      "rows_checked": 200,
+      "violations": 0
+    },
+    "pk_not_null:AdjustmentProposal": {
+      "rows_checked": 3,
+      "violations": 0
+    },
+    "pk_not_null:ApprovalEvent": {
+      "rows_checked": 8,
+      "violations": 0
+    },
+    "pk_not_null:CompaRatioSnapshot": {
+      "rows_checked": 191,
+      "violations": 0
+    },
+    "pk_not_null:ComparableGroup": {
+      "rows_checked": 127,
+      "violations": 0
+    },
+    "pk_not_null:ComparableGroupMember": {
+      "rows_checked": 212,
+      "violations": 0
+    },
+    "pk_not_null:CompensationBand": {
+      "rows_checked": 4800,
+      "violations": 0
+    },
+    "pk_not_null:Employee": {
+      "rows_checked": 200,
+      "violations": 0
+    },
+    "pk_not_null:FXRate": {
+      "rows_checked": 18,
+      "violations": 0
+    },
+    "pk_not_null:Level": {
+      "rows_checked": 10,
+      "violations": 0
+    },
+    "pk_not_null:Location": {
+      "rows_checked": 8,
+      "violations": 0
+    },
+    "pk_not_null:PerformanceEvidence": {
+      "rows_checked": 419,
+      "violations": 0
+    },
+    "pk_not_null:Promotion": {
+      "rows_checked": 27,
+      "violations": 0
+    },
+    "pk_not_null:Role": {
+      "rows_checked": 20,
+      "violations": 0
+    },
+    "pk_not_null:SalaryRecord": {
+      "rows_checked": 555,
+      "violations": 0
+    },
+    "pk_not_null:Tenure": {
+      "rows_checked": 200,
+      "violations": 0
+    },
+    "pk_unique:AdjustmentProposal": {
+      "rows_checked": 3,
+      "violations": 0
+    },
+    "pk_unique:ApprovalEvent": {
+      "rows_checked": 8,
+      "violations": 0
+    },
+    "pk_unique:CompaRatioSnapshot": {
+      "rows_checked": 191,
+      "violations": 0
+    },
+    "pk_unique:ComparableGroup": {
+      "rows_checked": 127,
+      "violations": 0
+    },
+    "pk_unique:ComparableGroupMember": {
+      "rows_checked": 212,
+      "violations": 0
+    },
+    "pk_unique:CompensationBand": {
+      "rows_checked": 4800,
+      "violations": 0
+    },
+    "pk_unique:Employee": {
+      "rows_checked": 200,
+      "violations": 0
+    },
+    "pk_unique:FXRate": {
+      "rows_checked": 18,
+      "violations": 0
+    },
+    "pk_unique:Level": {
+      "rows_checked": 10,
+      "violations": 0
+    },
+    "pk_unique:Location": {
+      "rows_checked": 8,
+      "violations": 0
+    },
+    "pk_unique:PerformanceEvidence": {
+      "rows_checked": 419,
+      "violations": 0
+    },
+    "pk_unique:Promotion": {
+      "rows_checked": 27,
+      "violations": 0
+    },
+    "pk_unique:Role": {
+      "rows_checked": 20,
+      "violations": 0
+    },
+    "pk_unique:SalaryRecord": {
+      "rows_checked": 555,
+      "violations": 0
+    },
+    "pk_unique:Tenure": {
+      "rows_checked": 200,
+      "violations": 0
+    },
+    "proposal_arithmetic": {
+      "rows_checked": 3,
+      "violations": 0
+    },
+    "proposal_lifecycle": {
+      "rows_checked": 3,
+      "violations": 2
+    },
+    "proposal_one_per_employee": {
+      "rows_checked": 3,
+      "violations": 0
+    },
+    "required:AdjustmentProposal.adjustment_pct": {
+      "rows_checked": 3,
+      "violations": 0
+    },
+    "required:AdjustmentProposal.band_id": {
+      "rows_checked": 3,
+      "violations": 0
+    },
+    "required:AdjustmentProposal.created_by": {
+      "rows_checked": 3,
+      "violations": 0
+    },
+    "required:AdjustmentProposal.created_date": {
+      "rows_checked": 3,
+      "violations": 0
+    },
+    "required:AdjustmentProposal.currency": {
+      "rows_checked": 3,
+      "violations": 0
+    },
+    "required:AdjustmentProposal.current_fte_salary": {
+      "rows_checked": 3,
+      "violations": 0
+    },
+    "required:AdjustmentProposal.employee_id": {
+      "rows_checked": 3,
+      "violations": 0
+    },
+    "required:AdjustmentProposal.evidence_summary": {
+      "rows_checked": 3,
+      "violations": 0
+    },
+    "required:AdjustmentProposal.expected_fte_salary": {
+      "rows_checked": 3,
+      "violations": 0
+    },
+    "required:AdjustmentProposal.fte": {
+      "rows_checked": 3,
+      "violations": 0
+    },
+    "required:AdjustmentProposal.group_id": {
+      "rows_checked": 3,
+      "violations": 0
+    },
+    "required:AdjustmentProposal.proposal_id": {
+      "rows_checked": 3,
+      "violations": 0
+    },
+    "required:AdjustmentProposal.proposed_base_salary": {
+      "rows_checked": 3,
+      "violations": 0
+    },
+    "required:AdjustmentProposal.proposed_fte_salary": {
+      "rows_checked": 3,
+      "violations": 0
+    },
+    "required:AdjustmentProposal.residual_z": {
+      "rows_checked": 3,
+      "violations": 0
+    },
+    "required:AdjustmentProposal.salary_id": {
+      "rows_checked": 3,
+      "violations": 0
+    },
+    "required:AdjustmentProposal.snapshot_id": {
+      "rows_checked": 3,
+      "violations": 0
+    },
+    "required:AdjustmentProposal.status": {
+      "rows_checked": 3,
+      "violations": 0
+    },
+    "required:AdjustmentProposal.trigger_type": {
+      "rows_checked": 3,
+      "violations": 0
+    },
+    "required:ApprovalEvent.actor_role": {
+      "rows_checked": 8,
+      "violations": 0
+    },
+    "required:ApprovalEvent.event_date": {
+      "rows_checked": 8,
+      "violations": 0
+    },
+    "required:ApprovalEvent.event_id": {
+      "rows_checked": 8,
+      "violations": 0
+    },
+    "required:ApprovalEvent.event_seq": {
+      "rows_checked": 8,
+      "violations": 0
+    },
+    "required:ApprovalEvent.proposal_id": {
+      "rows_checked": 8,
+      "violations": 0
+    },
+    "required:ApprovalEvent.to_status": {
+      "rows_checked": 8,
+      "violations": 0
+    },
+    "required:CompaRatioSnapshot.band_currency": {
+      "rows_checked": 191,
+      "violations": 0
+    },
+    "required:CompaRatioSnapshot.band_id_used": {
+      "rows_checked": 191,
+      "violations": 0
+    },
+    "required:CompaRatioSnapshot.band_max_usd": {
+      "rows_checked": 191,
+      "violations": 0
+    },
+    "required:CompaRatioSnapshot.band_mid_usd": {
+      "rows_checked": 191,
+      "violations": 0
+    },
+    "required:CompaRatioSnapshot.band_min_usd": {
+      "rows_checked": 191,
+      "violations": 0
+    },
+    "required:CompaRatioSnapshot.compa_ratio": {
+      "rows_checked": 191,
+      "violations": 0
+    },
+    "required:CompaRatioSnapshot.employee_id": {
+      "rows_checked": 191,
+      "violations": 0
+    },
+    "required:CompaRatioSnapshot.fte": {
+      "rows_checked": 191,
+      "violations": 0
+    },
+    "required:CompaRatioSnapshot.fte_applied": {
+      "rows_checked": 191,
+      "violations": 0
+    },
+    "required:CompaRatioSnapshot.fx_applied": {
+      "rows_checked": 191,
+      "violations": 0
+    },
+    "required:CompaRatioSnapshot.normalized_salary_usd": {
+      "rows_checked": 191,
+      "violations": 0
+    },
+    "required:CompaRatioSnapshot.range_position": {
+      "rows_checked": 191,
+      "violations": 0
+    },
+    "required:CompaRatioSnapshot.salary_currency": {
+      "rows_checked": 191,
+      "violations": 0
+    },
+    "required:CompaRatioSnapshot.salary_id": {
+      "rows_checked": 191,
+      "violations": 0
+    },
+    "required:CompaRatioSnapshot.salary_used": {
+      "rows_checked": 191,
+      "violations": 0
+    },
+    "required:CompaRatioSnapshot.snapshot_date": {
+      "rows_checked": 191,
+      "violations": 0
+    },
+    "required:CompaRatioSnapshot.snapshot_id": {
+      "rows_checked": 191,
+      "violations": 0
+    },
+    "required:ComparableGroup.group_id": {
+      "rows_checked": 127,
+      "violations": 0
+    },
+    "required:ComparableGroup.group_name": {
+      "rows_checked": 127,
+      "violations": 0
+    },
+    "required:ComparableGroup.grouping_basis": {
+      "rows_checked": 127,
+      "violations": 0
+    },
+    "required:ComparableGroup.member_count": {
+      "rows_checked": 127,
+      "violations": 0
+    },
+    "required:ComparableGroup.min_size_met": {
+      "rows_checked": 127,
+      "violations": 0
+    },
+    "required:ComparableGroup.snapshot_date": {
+      "rows_checked": 127,
+      "violations": 0
+    },
+    "required:ComparableGroup.status": {
+      "rows_checked": 127,
+      "violations": 0
+    },
+    "required:ComparableGroupMember.employee_id": {
+      "rows_checked": 212,
+      "violations": 0
+    },
+    "required:ComparableGroupMember.group_id": {
+      "rows_checked": 212,
+      "violations": 0
+    },
+    "required:ComparableGroupMember.joined_date": {
+      "rows_checked": 212,
+      "violations": 0
+    },
+    "required:ComparableGroupMember.level_id": {
+      "rows_checked": 212,
+      "violations": 0
+    },
+    "required:ComparableGroupMember.location_id": {
+      "rows_checked": 212,
+      "violations": 0
+    },
+    "required:ComparableGroupMember.role_id": {
+      "rows_checked": 212,
+      "violations": 0
+    },
+    "required:CompensationBand.band_id": {
+      "rows_checked": 4800,
+      "violations": 0
+    },
+    "required:CompensationBand.band_max": {
+      "rows_checked": 4800,
+      "violations": 0
+    },
+    "required:CompensationBand.band_mid": {
+      "rows_checked": 4800,
+      "violations": 0
+    },
+    "required:CompensationBand.band_min": {
+      "rows_checked": 4800,
+      "violations": 0
+    },
+    "required:CompensationBand.currency": {
+      "rows_checked": 4800,
+      "violations": 0
+    },
+    "required:CompensationBand.effective_from": {
+      "rows_checked": 4800,
+      "violations": 0
+    },
+    "required:CompensationBand.effective_to": {
+      "rows_checked": 4800,
+      "violations": 0
+    },
+    "required:CompensationBand.level_id": {
+      "rows_checked": 4800,
+      "violations": 0
+    },
+    "required:CompensationBand.location_id": {
+      "rows_checked": 4800,
+      "violations": 0
+    },
+    "required:CompensationBand.role_id": {
+      "rows_checked": 4800,
+      "violations": 0
+    },
+    "required:CompensationBand.status": {
+      "rows_checked": 4800,
+      "violations": 0
+    },
+    "required:CompensationBand.version_year": {
+      "rows_checked": 4800,
+      "violations": 0
+    },
+    "required:Employee.employee_id": {
+      "rows_checked": 200,
+      "violations": 0
+    },
+    "required:Employee.hire_date": {
+      "rows_checked": 200,
+      "violations": 0
+    },
+    "required:Employee.status": {
+      "rows_checked": 200,
+      "violations": 0
+    },
+    "required:FXRate.currency": {
+      "rows_checked": 18,
+      "violations": 0
+    },
+    "required:FXRate.effective_from": {
+      "rows_checked": 18,
+      "violations": 0
+    },
+    "required:FXRate.effective_to": {
+      "rows_checked": 18,
+      "violations": 0
+    },
+    "required:FXRate.fx_id": {
+      "rows_checked": 18,
+      "violations": 0
+    },
+    "required:FXRate.rate_to_usd": {
+      "rows_checked": 18,
+      "violations": 0
+    },
+    "required:Level.level_id": {
+      "rows_checked": 10,
+      "violations": 0
+    },
+    "required:Level.level_name": {
+      "rows_checked": 10,
+      "violations": 0
+    },
+    "required:Level.level_number": {
+      "rows_checked": 10,
+      "violations": 0
+    },
+    "required:Level.midpoint_multiplier": {
+      "rows_checked": 10,
+      "violations": 0
+    },
+    "required:Level.range_spread_pct": {
+      "rows_checked": 10,
+      "violations": 0
+    },
+    "required:Location.city": {
+      "rows_checked": 8,
+      "violations": 0
+    },
+    "required:Location.col_index": {
+      "rows_checked": 8,
+      "violations": 0
+    },
+    "required:Location.country": {
+      "rows_checked": 8,
+      "violations": 0
+    },
+    "required:Location.currency": {
+      "rows_checked": 8,
+      "violations": 0
+    },
+    "required:Location.location_id": {
+      "rows_checked": 8,
+      "violations": 0
+    },
+    "required:Location.status": {
+      "rows_checked": 8,
+      "violations": 0
+    },
+    "required:PerformanceEvidence.document_ref": {
+      "rows_checked": 419,
+      "violations": 0
+    },
+    "required:PerformanceEvidence.effective_from": {
+      "rows_checked": 419,
+      "violations": 0
+    },
+    "required:PerformanceEvidence.employee_id": {
+      "rows_checked": 419,
+      "violations": 0
+    },
+    "required:PerformanceEvidence.evidence_id": {
+      "rows_checked": 419,
+      "violations": 0
+    },
+    "required:PerformanceEvidence.evidence_type": {
+      "rows_checked": 419,
+      "violations": 0
+    },
+    "required:PerformanceEvidence.recorded_date": {
+      "rows_checked": 419,
+      "violations": 0
+    },
+    "required:Promotion.effective_date": {
+      "rows_checked": 27,
+      "violations": 0
+    },
+    "required:Promotion.employee_id": {
+      "rows_checked": 27,
+      "violations": 0
+    },
+    "required:Promotion.from_level_id": {
+      "rows_checked": 27,
+      "violations": 0
+    },
+    "required:Promotion.pct_increase": {
+      "rows_checked": 27,
+      "violations": 0
+    },
+    "required:Promotion.promotion_id": {
+      "rows_checked": 27,
+      "violations": 0
+    },
+    "required:Promotion.role_id": {
+      "rows_checked": 27,
+      "violations": 0
+    },
+    "required:Promotion.salary_id": {
+      "rows_checked": 27,
+      "violations": 0
+    },
+    "required:Promotion.to_level_id": {
+      "rows_checked": 27,
+      "violations": 0
+    },
+    "required:Role.l1_midpoint_usd": {
+      "rows_checked": 20,
+      "violations": 0
+    },
+    "required:Role.role_family": {
+      "rows_checked": 20,
+      "violations": 0
+    },
+    "required:Role.role_id": {
+      "rows_checked": 20,
+      "violations": 0
+    },
+    "required:Role.role_name": {
+      "rows_checked": 20,
+      "violations": 0
+    },
+    "required:Role.status": {
+      "rows_checked": 20,
+      "violations": 0
+    },
+    "required:SalaryRecord.band_id": {
+      "rows_checked": 555,
+      "violations": 0
+    },
+    "required:SalaryRecord.base_salary": {
+      "rows_checked": 555,
+      "violations": 0
+    },
+    "required:SalaryRecord.change_reason": {
+      "rows_checked": 555,
+      "violations": 0
+    },
+    "required:SalaryRecord.currency": {
+      "rows_checked": 555,
+      "violations": 0
+    },
+    "required:SalaryRecord.effective_from": {
+      "rows_checked": 555,
+      "violations": 0
+    },
+    "required:SalaryRecord.employee_id": {
+      "rows_checked": 555,
+      "violations": 0
+    },
+    "required:SalaryRecord.fte": {
+      "rows_checked": 555,
+      "violations": 0
+    },
+    "required:SalaryRecord.level_id": {
+      "rows_checked": 555,
+      "violations": 0
+    },
+    "required:SalaryRecord.location_id": {
+      "rows_checked": 555,
+      "violations": 0
+    },
+    "required:SalaryRecord.role_id": {
+      "rows_checked": 555,
+      "violations": 0
+    },
+    "required:SalaryRecord.salary_id": {
+      "rows_checked": 555,
+      "violations": 0
+    },
+    "required:Tenure.as_of_date": {
+      "rows_checked": 200,
+      "violations": 0
+    },
+    "required:Tenure.employee_id": {
+      "rows_checked": 200,
+      "violations": 0
+    },
+    "required:Tenure.tenure_band": {
+      "rows_checked": 200,
+      "violations": 0
+    },
+    "required:Tenure.tenure_id": {
+      "rows_checked": 200,
+      "violations": 0
+    },
+    "required:Tenure.tenure_months": {
+      "rows_checked": 200,
+      "violations": 0
+    },
+    "required:Tenure.tenure_years": {
+      "rows_checked": 200,
+      "violations": 0
+    },
+    "salary_band_consistency": {
+      "rows_checked": 555,
+      "violations": 0
+    },
+    "salary_change_reason_consistency": {
+      "rows_checked": 555,
+      "violations": 0
+    },
+    "salary_date_continuity": {
+      "rows_checked": 555,
+      "violations": 0
+    },
+    "salary_effective_order": {
+      "rows_checked": 555,
+      "violations": 0
+    },
+    "snapshot_active_only": {
+      "rows_checked": 191,
+      "violations": 0
+    },
+    "snapshot_arithmetic_reconciliation": {
+      "rows_checked": 191,
+      "violations": 0
+    },
+    "snapshot_band_effective": {
+      "rows_checked": 191,
+      "violations": 2
+    },
+    "snapshot_fte_applied": {
+      "rows_checked": 191,
+      "violations": 2
+    },
+    "snapshot_fx_applied": {
+      "rows_checked": 191,
+      "violations": 2
+    },
+    "snapshot_one_per_employee": {
+      "rows_checked": 191,
+      "violations": 0
+    },
+    "tenure_reconciliation": {
+      "rows_checked": 200,
+      "violations": 0
+    }
+  },
+  "checks_run": 253,
+  "labelled_findings_by_check": {
+    "applied_requires_approvals": 1,
+    "group_comparability": 2,
+    "proposal_lifecycle": 2,
+    "snapshot_band_effective": 2,
+    "snapshot_fte_applied": 2,
+    "snapshot_fx_applied": 2
+  },
+  "labelled_findings_observed": 11,
+  "missed_labelled": 0,
+  "missed_labelled_samples": [],
+  "status": "PASS",
+  "total_rows_checked": 141277,
+  "unexpected_error_samples": [],
+  "unexpected_errors": 0
+}

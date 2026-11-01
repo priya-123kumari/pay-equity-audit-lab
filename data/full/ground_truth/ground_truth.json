@@ -1,0 +1,1802 @@
+[
+ {
+  "gt_id":"GT-00001",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-000026",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"CREATE_ADJUSTMENT_PROPOSAL",
+  "context":"off-cycle change x0.7198 on 2026-07-29 (SAL-EMP-000026-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00002",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-000062",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"CREATE_ADJUSTMENT_PROPOSAL",
+  "context":"off-cycle change x0.7133 on 2026-07-22 (SAL-EMP-000062-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00003",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-000072",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"REFER_TO_COMPENSATION_COMMITTEE",
+  "context":"off-cycle change x1.3176 on 2026-09-01 (SAL-EMP-000072-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00004",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-000156",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"CREATE_ADJUSTMENT_PROPOSAL",
+  "context":"off-cycle change x0.7451 on 2026-08-09 (SAL-EMP-000156-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00005",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-000158",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"REFER_TO_COMPENSATION_COMMITTEE",
+  "context":"off-cycle change x1.3142 on 2026-09-02 (SAL-EMP-000158-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00006",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-000177",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"REFER_TO_COMPENSATION_COMMITTEE",
+  "context":"off-cycle change x1.2562 on 2026-07-18 (SAL-EMP-000177-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00007",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-000183",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"CREATE_ADJUSTMENT_PROPOSAL",
+  "context":"off-cycle change x0.705 on 2026-08-07 (SAL-EMP-000183-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00008",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-000246",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"CREATE_ADJUSTMENT_PROPOSAL",
+  "context":"off-cycle change x0.718 on 2026-08-04 (SAL-EMP-000246-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00009",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-000291",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"CREATE_ADJUSTMENT_PROPOSAL",
+  "context":"off-cycle change x0.7594 on 2026-09-05 (SAL-EMP-000291-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00010",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-000404",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"CREATE_ADJUSTMENT_PROPOSAL",
+  "context":"off-cycle change x0.7229 on 2026-07-15 (SAL-EMP-000404-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00011",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-000420",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"REFER_TO_COMPENSATION_COMMITTEE",
+  "context":"off-cycle change x1.2605 on 2026-08-04 (SAL-EMP-000420-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00012",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-000509",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"REFER_TO_COMPENSATION_COMMITTEE",
+  "context":"off-cycle change x1.2955 on 2026-08-22 (SAL-EMP-000509-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00013",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-000645",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"REFER_TO_COMPENSATION_COMMITTEE",
+  "context":"off-cycle change x1.2579 on 2026-07-15 (SAL-EMP-000645-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00014",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-000736",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"REFER_TO_COMPENSATION_COMMITTEE",
+  "context":"off-cycle change x1.2941 on 2026-09-05 (SAL-EMP-000736-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00015",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-000784",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"REFER_TO_COMPENSATION_COMMITTEE",
+  "context":"off-cycle change x1.2424 on 2026-07-31 (SAL-EMP-000784-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00016",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-000794",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"REFER_TO_COMPENSATION_COMMITTEE",
+  "context":"off-cycle change x1.2967 on 2026-08-27 (SAL-EMP-000794-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00017",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-000832",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"CREATE_ADJUSTMENT_PROPOSAL",
+  "context":"off-cycle change x0.7287 on 2026-07-28 (SAL-EMP-000832-2026-03) without documented factor"
+ },
+ {
+  "gt_id":"GT-00018",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-000918",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"CREATE_ADJUSTMENT_PROPOSAL",
+  "context":"off-cycle change x0.7104 on 2026-07-25 (SAL-EMP-000918-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00019",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-000951",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"CREATE_ADJUSTMENT_PROPOSAL",
+  "context":"off-cycle change x0.7766 on 2026-07-23 (SAL-EMP-000951-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00020",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-001122",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"CREATE_ADJUSTMENT_PROPOSAL",
+  "context":"off-cycle change x0.7689 on 2026-09-10 (SAL-EMP-001122-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00021",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-001135",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"CREATE_ADJUSTMENT_PROPOSAL",
+  "context":"off-cycle change x0.781 on 2026-08-27 (SAL-EMP-001135-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00022",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-001139",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"CREATE_ADJUSTMENT_PROPOSAL",
+  "context":"off-cycle change x0.7832 on 2026-07-26 (SAL-EMP-001139-2026-03) without documented factor"
+ },
+ {
+  "gt_id":"GT-00023",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-001197",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"CREATE_ADJUSTMENT_PROPOSAL",
+  "context":"off-cycle change x0.7536 on 2026-08-19 (SAL-EMP-001197-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00024",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-001223",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"REFER_TO_COMPENSATION_COMMITTEE",
+  "context":"off-cycle change x1.3355 on 2026-08-01 (SAL-EMP-001223-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00025",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-001270",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"REFER_TO_COMPENSATION_COMMITTEE",
+  "context":"off-cycle change x1.2586 on 2026-08-05 (SAL-EMP-001270-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00026",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-001431",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"CREATE_ADJUSTMENT_PROPOSAL",
+  "context":"off-cycle change x0.7488 on 2026-07-27 (SAL-EMP-001431-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00027",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-001522",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"REFER_TO_COMPENSATION_COMMITTEE",
+  "context":"off-cycle change x1.3128 on 2026-07-19 (SAL-EMP-001522-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00028",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-001541",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"REFER_TO_COMPENSATION_COMMITTEE",
+  "context":"off-cycle change x1.2304 on 2026-08-01 (SAL-EMP-001541-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00029",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-001601",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"REFER_TO_COMPENSATION_COMMITTEE",
+  "context":"off-cycle change x1.3484 on 2026-09-12 (SAL-EMP-001601-2026-03) without documented factor"
+ },
+ {
+  "gt_id":"GT-00030",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-001632",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"CREATE_ADJUSTMENT_PROPOSAL",
+  "context":"off-cycle change x0.7648 on 2026-08-29 (SAL-EMP-001632-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00031",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-001811",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"REFER_TO_COMPENSATION_COMMITTEE",
+  "context":"off-cycle change x1.2252 on 2026-09-05 (SAL-EMP-001811-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00032",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-001848",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"CREATE_ADJUSTMENT_PROPOSAL",
+  "context":"off-cycle change x0.722 on 2026-08-28 (SAL-EMP-001848-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00033",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-001878",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"REFER_TO_COMPENSATION_COMMITTEE",
+  "context":"off-cycle change x1.3294 on 2026-08-18 (SAL-EMP-001878-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00034",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-001968",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"CREATE_ADJUSTMENT_PROPOSAL",
+  "context":"off-cycle change x0.7889 on 2026-07-24 (SAL-EMP-001968-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00035",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-001973",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"REFER_TO_COMPENSATION_COMMITTEE",
+  "context":"off-cycle change x1.2254 on 2026-07-25 (SAL-EMP-001973-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00036",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-002014",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"CREATE_ADJUSTMENT_PROPOSAL",
+  "context":"off-cycle change x0.7781 on 2026-07-20 (SAL-EMP-002014-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00037",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-002026",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"REFER_TO_COMPENSATION_COMMITTEE",
+  "context":"off-cycle change x1.3275 on 2026-09-02 (SAL-EMP-002026-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00038",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-002027",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"CREATE_ADJUSTMENT_PROPOSAL",
+  "context":"off-cycle change x0.7361 on 2026-08-22 (SAL-EMP-002027-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00039",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-002030",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"REFER_TO_COMPENSATION_COMMITTEE",
+  "context":"off-cycle change x1.2678 on 2026-08-07 (SAL-EMP-002030-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00040",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-002159",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"REFER_TO_COMPENSATION_COMMITTEE",
+  "context":"off-cycle change x1.2598 on 2026-09-10 (SAL-EMP-002159-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00041",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-002290",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"REFER_TO_COMPENSATION_COMMITTEE",
+  "context":"off-cycle change x1.2888 on 2026-08-09 (SAL-EMP-002290-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00042",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-002353",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"CREATE_ADJUSTMENT_PROPOSAL",
+  "context":"off-cycle change x0.7908 on 2026-08-30 (SAL-EMP-002353-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00043",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-002387",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"REFER_TO_COMPENSATION_COMMITTEE",
+  "context":"off-cycle change x1.3363 on 2026-07-31 (SAL-EMP-002387-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00044",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-002488",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"CREATE_ADJUSTMENT_PROPOSAL",
+  "context":"off-cycle change x0.7014 on 2026-08-07 (SAL-EMP-002488-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00045",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-002669",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"REFER_TO_COMPENSATION_COMMITTEE",
+  "context":"off-cycle change x1.2313 on 2026-09-02 (SAL-EMP-002669-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00046",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-002785",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"CREATE_ADJUSTMENT_PROPOSAL",
+  "context":"off-cycle change x0.7122 on 2026-07-20 (SAL-EMP-002785-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00047",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-002793",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"CREATE_ADJUSTMENT_PROPOSAL",
+  "context":"off-cycle change x0.7093 on 2026-08-10 (SAL-EMP-002793-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00048",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-002806",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"CREATE_ADJUSTMENT_PROPOSAL",
+  "context":"off-cycle change x0.7384 on 2026-08-23 (SAL-EMP-002806-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00049",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-002906",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"REFER_TO_COMPENSATION_COMMITTEE",
+  "context":"off-cycle change x1.3199 on 2026-09-08 (SAL-EMP-002906-2026-03) without documented factor"
+ },
+ {
+  "gt_id":"GT-00050",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-002918",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"REFER_TO_COMPENSATION_COMMITTEE",
+  "context":"off-cycle change x1.2654 on 2026-08-16 (SAL-EMP-002918-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00051",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-002946",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"CREATE_ADJUSTMENT_PROPOSAL",
+  "context":"off-cycle change x0.7435 on 2026-08-29 (SAL-EMP-002946-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00052",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-003009",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"CREATE_ADJUSTMENT_PROPOSAL",
+  "context":"off-cycle change x0.7393 on 2026-08-18 (SAL-EMP-003009-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00053",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-003258",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"CREATE_ADJUSTMENT_PROPOSAL",
+  "context":"off-cycle change x0.724 on 2026-08-28 (SAL-EMP-003258-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00054",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-003373",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"CREATE_ADJUSTMENT_PROPOSAL",
+  "context":"off-cycle change x0.7043 on 2026-08-19 (SAL-EMP-003373-2026-03) without documented factor"
+ },
+ {
+  "gt_id":"GT-00055",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-003381",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"REFER_TO_COMPENSATION_COMMITTEE",
+  "context":"off-cycle change x1.2698 on 2026-08-16 (SAL-EMP-003381-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00056",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-003585",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"CREATE_ADJUSTMENT_PROPOSAL",
+  "context":"off-cycle change x0.7768 on 2026-09-03 (SAL-EMP-003585-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00057",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-003644",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"CREATE_ADJUSTMENT_PROPOSAL",
+  "context":"off-cycle change x0.7104 on 2026-08-26 (SAL-EMP-003644-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00058",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-003771",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"REFER_TO_COMPENSATION_COMMITTEE",
+  "context":"off-cycle change x1.2622 on 2026-07-27 (SAL-EMP-003771-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00059",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-003776",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"CREATE_ADJUSTMENT_PROPOSAL",
+  "context":"off-cycle change x0.7713 on 2026-08-27 (SAL-EMP-003776-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00060",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-003809",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"REFER_TO_COMPENSATION_COMMITTEE",
+  "context":"off-cycle change x1.2463 on 2026-07-29 (SAL-EMP-003809-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00061",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-003833",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"REFER_TO_COMPENSATION_COMMITTEE",
+  "context":"off-cycle change x1.2573 on 2026-08-04 (SAL-EMP-003833-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00062",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-004233",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"REFER_TO_COMPENSATION_COMMITTEE",
+  "context":"off-cycle change x1.3374 on 2026-08-22 (SAL-EMP-004233-2026-03) without documented factor"
+ },
+ {
+  "gt_id":"GT-00063",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-004243",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"CREATE_ADJUSTMENT_PROPOSAL",
+  "context":"off-cycle change x0.784 on 2026-07-28 (SAL-EMP-004243-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00064",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-004329",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"REFER_TO_COMPENSATION_COMMITTEE",
+  "context":"off-cycle change x1.2421 on 2026-09-03 (SAL-EMP-004329-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00065",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-004422",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"REFER_TO_COMPENSATION_COMMITTEE",
+  "context":"off-cycle change x1.3041 on 2026-09-06 (SAL-EMP-004422-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00066",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-004464",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"REFER_TO_COMPENSATION_COMMITTEE",
+  "context":"off-cycle change x1.2855 on 2026-09-12 (SAL-EMP-004464-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00067",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-004485",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"CREATE_ADJUSTMENT_PROPOSAL",
+  "context":"off-cycle change x0.7261 on 2026-07-24 (SAL-EMP-004485-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00068",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-004541",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"CREATE_ADJUSTMENT_PROPOSAL",
+  "context":"off-cycle change x0.7817 on 2026-07-24 (SAL-EMP-004541-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00069",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-004545",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"REFER_TO_COMPENSATION_COMMITTEE",
+  "context":"off-cycle change x1.2516 on 2026-08-23 (SAL-EMP-004545-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00070",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-004573",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"REFER_TO_COMPENSATION_COMMITTEE",
+  "context":"off-cycle change x1.3125 on 2026-07-27 (SAL-EMP-004573-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00071",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-004583",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"REFER_TO_COMPENSATION_COMMITTEE",
+  "context":"off-cycle change x1.3397 on 2026-09-03 (SAL-EMP-004583-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00072",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-004643",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"CREATE_ADJUSTMENT_PROPOSAL",
+  "context":"off-cycle change x0.7402 on 2026-09-04 (SAL-EMP-004643-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00073",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-004644",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"REFER_TO_COMPENSATION_COMMITTEE",
+  "context":"off-cycle change x1.2831 on 2026-07-20 (SAL-EMP-004644-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00074",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-004725",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"CREATE_ADJUSTMENT_PROPOSAL",
+  "context":"off-cycle change x0.7323 on 2026-09-10 (SAL-EMP-004725-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00075",
+  "entity_type":"EMPLOYEE",
+  "entity_id":"EMP-004770",
+  "issue_type":"UNEXPLAINED_OUTLIER",
+  "expected_detection_rule":"|robust z| of residual after rating\/tenure\/premium model > threshold, no documented evidence",
+  "expected_decision":"REFER_TO_COMPENSATION_COMMITTEE",
+  "context":"off-cycle change x1.2532 on 2026-08-12 (SAL-EMP-004770-2026-02) without documented factor"
+ },
+ {
+  "gt_id":"GT-00076",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-000063-2026-10",
+  "issue_type":"EXPIRED_BAND_COMPARISON",
+  "expected_detection_rule":"band_id_used.effective_to < snapshot_date",
+  "expected_decision":"RECOMPUTE_WITH_CURRENT_BAND",
+  "context":"compared against BAND-HRP-L3-AUS-2025"
+ },
+ {
+  "gt_id":"GT-00077",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-000153-2026-10",
+  "issue_type":"EXPIRED_BAND_COMPARISON",
+  "expected_detection_rule":"band_id_used.effective_to < snapshot_date",
+  "expected_decision":"RECOMPUTE_WITH_CURRENT_BAND",
+  "context":"compared against BAND-SWE-L7-LON-2025"
+ },
+ {
+  "gt_id":"GT-00078",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-000392-2026-10",
+  "issue_type":"EXPIRED_BAND_COMPARISON",
+  "expected_detection_rule":"band_id_used.effective_to < snapshot_date",
+  "expected_decision":"RECOMPUTE_WITH_CURRENT_BAND",
+  "context":"compared against BAND-BIAN-L8-DEL-2025"
+ },
+ {
+  "gt_id":"GT-00079",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-000561-2026-10",
+  "issue_type":"EXPIRED_BAND_COMPARISON",
+  "expected_detection_rule":"band_id_used.effective_to < snapshot_date",
+  "expected_decision":"RECOMPUTE_WITH_CURRENT_BAND",
+  "context":"compared against BAND-OPSA-L1-BLR-2025"
+ },
+ {
+  "gt_id":"GT-00080",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-000730-2026-10",
+  "issue_type":"EXPIRED_BAND_COMPARISON",
+  "expected_detection_rule":"band_id_used.effective_to < snapshot_date",
+  "expected_decision":"RECOMPUTE_WITH_CURRENT_BAND",
+  "context":"compared against BAND-DSCI-L6-BLR-2025"
+ },
+ {
+  "gt_id":"GT-00081",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-000909-2026-10",
+  "issue_type":"EXPIRED_BAND_COMPARISON",
+  "expected_detection_rule":"band_id_used.effective_to < snapshot_date",
+  "expected_decision":"RECOMPUTE_WITH_CURRENT_BAND",
+  "context":"compared against BAND-MKTG-L7-BLR-2025"
+ },
+ {
+  "gt_id":"GT-00082",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-001175-2026-10",
+  "issue_type":"EXPIRED_BAND_COMPARISON",
+  "expected_detection_rule":"band_id_used.effective_to < snapshot_date",
+  "expected_decision":"RECOMPUTE_WITH_CURRENT_BAND",
+  "context":"compared against BAND-SUPP-L2-SIN-2025"
+ },
+ {
+  "gt_id":"GT-00083",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-001224-2026-10",
+  "issue_type":"EXPIRED_BAND_COMPARISON",
+  "expected_detection_rule":"band_id_used.effective_to < snapshot_date",
+  "expected_decision":"RECOMPUTE_WITH_CURRENT_BAND",
+  "context":"compared against BAND-SWE-L4-BER-2025"
+ },
+ {
+  "gt_id":"GT-00084",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-001272-2026-10",
+  "issue_type":"EXPIRED_BAND_COMPARISON",
+  "expected_detection_rule":"band_id_used.effective_to < snapshot_date",
+  "expected_decision":"RECOMPUTE_WITH_CURRENT_BAND",
+  "context":"compared against BAND-SUPP-L1-TOR-2025"
+ },
+ {
+  "gt_id":"GT-00085",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-001296-2026-10",
+  "issue_type":"EXPIRED_BAND_COMPARISON",
+  "expected_detection_rule":"band_id_used.effective_to < snapshot_date",
+  "expected_decision":"RECOMPUTE_WITH_CURRENT_BAND",
+  "context":"compared against BAND-SUPP-L2-NYC-2025"
+ },
+ {
+  "gt_id":"GT-00086",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-001330-2026-10",
+  "issue_type":"EXPIRED_BAND_COMPARISON",
+  "expected_detection_rule":"band_id_used.effective_to < snapshot_date",
+  "expected_decision":"RECOMPUTE_WITH_CURRENT_BAND",
+  "context":"compared against BAND-MKTG-L4-AUS-2025"
+ },
+ {
+  "gt_id":"GT-00087",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-001376-2026-10",
+  "issue_type":"EXPIRED_BAND_COMPARISON",
+  "expected_detection_rule":"band_id_used.effective_to < snapshot_date",
+  "expected_decision":"RECOMPUTE_WITH_CURRENT_BAND",
+  "context":"compared against BAND-ACCM-L4-DEL-2025"
+ },
+ {
+  "gt_id":"GT-00088",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-001470-2026-10",
+  "issue_type":"EXPIRED_BAND_COMPARISON",
+  "expected_detection_rule":"band_id_used.effective_to < snapshot_date",
+  "expected_decision":"RECOMPUTE_WITH_CURRENT_BAND",
+  "context":"compared against BAND-DSCI-L4-LON-2025"
+ },
+ {
+  "gt_id":"GT-00089",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-001480-2026-10",
+  "issue_type":"EXPIRED_BAND_COMPARISON",
+  "expected_detection_rule":"band_id_used.effective_to < snapshot_date",
+  "expected_decision":"RECOMPUTE_WITH_CURRENT_BAND",
+  "context":"compared against BAND-SUPP-L2-TOR-2025"
+ },
+ {
+  "gt_id":"GT-00090",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-001705-2026-10",
+  "issue_type":"EXPIRED_BAND_COMPARISON",
+  "expected_detection_rule":"band_id_used.effective_to < snapshot_date",
+  "expected_decision":"RECOMPUTE_WITH_CURRENT_BAND",
+  "context":"compared against BAND-SWE-L6-AUS-2025"
+ },
+ {
+  "gt_id":"GT-00091",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-001988-2026-10",
+  "issue_type":"EXPIRED_BAND_COMPARISON",
+  "expected_detection_rule":"band_id_used.effective_to < snapshot_date",
+  "expected_decision":"RECOMPUTE_WITH_CURRENT_BAND",
+  "context":"compared against BAND-MLE-L2-TOR-2025"
+ },
+ {
+  "gt_id":"GT-00092",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-002066-2026-10",
+  "issue_type":"EXPIRED_BAND_COMPARISON",
+  "expected_detection_rule":"band_id_used.effective_to < snapshot_date",
+  "expected_decision":"RECOMPUTE_WITH_CURRENT_BAND",
+  "context":"compared against BAND-OPSA-L7-NYC-2025"
+ },
+ {
+  "gt_id":"GT-00093",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-002094-2026-10",
+  "issue_type":"EXPIRED_BAND_COMPARISON",
+  "expected_detection_rule":"band_id_used.effective_to < snapshot_date",
+  "expected_decision":"RECOMPUTE_WITH_CURRENT_BAND",
+  "context":"compared against BAND-SREP-L3-LON-2025"
+ },
+ {
+  "gt_id":"GT-00094",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-002111-2026-10",
+  "issue_type":"EXPIRED_BAND_COMPARISON",
+  "expected_detection_rule":"band_id_used.effective_to < snapshot_date",
+  "expected_decision":"RECOMPUTE_WITH_CURRENT_BAND",
+  "context":"compared against BAND-SREP-L3-BLR-2025"
+ },
+ {
+  "gt_id":"GT-00095",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-002404-2026-10",
+  "issue_type":"EXPIRED_BAND_COMPARISON",
+  "expected_detection_rule":"band_id_used.effective_to < snapshot_date",
+  "expected_decision":"RECOMPUTE_WITH_CURRENT_BAND",
+  "context":"compared against BAND-SUPP-L6-DEL-2025"
+ },
+ {
+  "gt_id":"GT-00096",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-002586-2026-10",
+  "issue_type":"EXPIRED_BAND_COMPARISON",
+  "expected_detection_rule":"band_id_used.effective_to < snapshot_date",
+  "expected_decision":"RECOMPUTE_WITH_CURRENT_BAND",
+  "context":"compared against BAND-SUPP-L7-NYC-2025"
+ },
+ {
+  "gt_id":"GT-00097",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-002947-2026-10",
+  "issue_type":"EXPIRED_BAND_COMPARISON",
+  "expected_detection_rule":"band_id_used.effective_to < snapshot_date",
+  "expected_decision":"RECOMPUTE_WITH_CURRENT_BAND",
+  "context":"compared against BAND-PM-L1-BLR-2025"
+ },
+ {
+  "gt_id":"GT-00098",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-002950-2026-10",
+  "issue_type":"EXPIRED_BAND_COMPARISON",
+  "expected_detection_rule":"band_id_used.effective_to < snapshot_date",
+  "expected_decision":"RECOMPUTE_WITH_CURRENT_BAND",
+  "context":"compared against BAND-SUPP-L3-SIN-2025"
+ },
+ {
+  "gt_id":"GT-00099",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-002995-2026-10",
+  "issue_type":"EXPIRED_BAND_COMPARISON",
+  "expected_detection_rule":"band_id_used.effective_to < snapshot_date",
+  "expected_decision":"RECOMPUTE_WITH_CURRENT_BAND",
+  "context":"compared against BAND-SWE-L4-NYC-2025"
+ },
+ {
+  "gt_id":"GT-00100",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-003121-2026-10",
+  "issue_type":"EXPIRED_BAND_COMPARISON",
+  "expected_detection_rule":"band_id_used.effective_to < snapshot_date",
+  "expected_decision":"RECOMPUTE_WITH_CURRENT_BAND",
+  "context":"compared against BAND-HRP-L4-NYC-2025"
+ },
+ {
+  "gt_id":"GT-00101",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-003311-2026-10",
+  "issue_type":"EXPIRED_BAND_COMPARISON",
+  "expected_detection_rule":"band_id_used.effective_to < snapshot_date",
+  "expected_decision":"RECOMPUTE_WITH_CURRENT_BAND",
+  "context":"compared against BAND-DEVOPS-L1-BER-2025"
+ },
+ {
+  "gt_id":"GT-00102",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-003579-2026-10",
+  "issue_type":"EXPIRED_BAND_COMPARISON",
+  "expected_detection_rule":"band_id_used.effective_to < snapshot_date",
+  "expected_decision":"RECOMPUTE_WITH_CURRENT_BAND",
+  "context":"compared against BAND-SWE-L6-AUS-2025"
+ },
+ {
+  "gt_id":"GT-00103",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-003680-2026-10",
+  "issue_type":"EXPIRED_BAND_COMPARISON",
+  "expected_detection_rule":"band_id_used.effective_to < snapshot_date",
+  "expected_decision":"RECOMPUTE_WITH_CURRENT_BAND",
+  "context":"compared against BAND-SWE-L4-NYC-2025"
+ },
+ {
+  "gt_id":"GT-00104",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-003782-2026-10",
+  "issue_type":"EXPIRED_BAND_COMPARISON",
+  "expected_detection_rule":"band_id_used.effective_to < snapshot_date",
+  "expected_decision":"RECOMPUTE_WITH_CURRENT_BAND",
+  "context":"compared against BAND-OPSA-L6-DEL-2025"
+ },
+ {
+  "gt_id":"GT-00105",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-003791-2026-10",
+  "issue_type":"EXPIRED_BAND_COMPARISON",
+  "expected_detection_rule":"band_id_used.effective_to < snapshot_date",
+  "expected_decision":"RECOMPUTE_WITH_CURRENT_BAND",
+  "context":"compared against BAND-SREP-L2-SIN-2025"
+ },
+ {
+  "gt_id":"GT-00106",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-003910-2026-10",
+  "issue_type":"EXPIRED_BAND_COMPARISON",
+  "expected_detection_rule":"band_id_used.effective_to < snapshot_date",
+  "expected_decision":"RECOMPUTE_WITH_CURRENT_BAND",
+  "context":"compared against BAND-RECR-L5-DEL-2025"
+ },
+ {
+  "gt_id":"GT-00107",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-004317-2026-10",
+  "issue_type":"EXPIRED_BAND_COMPARISON",
+  "expected_detection_rule":"band_id_used.effective_to < snapshot_date",
+  "expected_decision":"RECOMPUTE_WITH_CURRENT_BAND",
+  "context":"compared against BAND-SWE-L3-DEL-2025"
+ },
+ {
+  "gt_id":"GT-00108",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-004338-2026-10",
+  "issue_type":"EXPIRED_BAND_COMPARISON",
+  "expected_detection_rule":"band_id_used.effective_to < snapshot_date",
+  "expected_decision":"RECOMPUTE_WITH_CURRENT_BAND",
+  "context":"compared against BAND-ACCT-L5-AUS-2025"
+ },
+ {
+  "gt_id":"GT-00109",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-004369-2026-10",
+  "issue_type":"EXPIRED_BAND_COMPARISON",
+  "expected_detection_rule":"band_id_used.effective_to < snapshot_date",
+  "expected_decision":"RECOMPUTE_WITH_CURRENT_BAND",
+  "context":"compared against BAND-QAE-L2-BLR-2025"
+ },
+ {
+  "gt_id":"GT-00110",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-004748-2026-10",
+  "issue_type":"EXPIRED_BAND_COMPARISON",
+  "expected_detection_rule":"band_id_used.effective_to < snapshot_date",
+  "expected_decision":"RECOMPUTE_WITH_CURRENT_BAND",
+  "context":"compared against BAND-SWE-L1-NYC-2025"
+ },
+ {
+  "gt_id":"GT-00111",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-004812-2026-10",
+  "issue_type":"EXPIRED_BAND_COMPARISON",
+  "expected_detection_rule":"band_id_used.effective_to < snapshot_date",
+  "expected_decision":"RECOMPUTE_WITH_CURRENT_BAND",
+  "context":"compared against BAND-SWE-L3-NYC-2025"
+ },
+ {
+  "gt_id":"GT-00112",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-004863-2026-10",
+  "issue_type":"EXPIRED_BAND_COMPARISON",
+  "expected_detection_rule":"band_id_used.effective_to < snapshot_date",
+  "expected_decision":"RECOMPUTE_WITH_CURRENT_BAND",
+  "context":"compared against BAND-PM-L1-TOR-2025"
+ },
+ {
+  "gt_id":"GT-00113",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-004879-2026-10",
+  "issue_type":"EXPIRED_BAND_COMPARISON",
+  "expected_detection_rule":"band_id_used.effective_to < snapshot_date",
+  "expected_decision":"RECOMPUTE_WITH_CURRENT_BAND",
+  "context":"compared against BAND-UXD-L6-LON-2025"
+ },
+ {
+  "gt_id":"GT-00114",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-004956-2026-10",
+  "issue_type":"EXPIRED_BAND_COMPARISON",
+  "expected_detection_rule":"band_id_used.effective_to < snapshot_date",
+  "expected_decision":"RECOMPUTE_WITH_CURRENT_BAND",
+  "context":"compared against BAND-RECR-L1-BER-2025"
+ },
+ {
+  "gt_id":"GT-00115",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-004984-2026-10",
+  "issue_type":"EXPIRED_BAND_COMPARISON",
+  "expected_detection_rule":"band_id_used.effective_to < snapshot_date",
+  "expected_decision":"RECOMPUTE_WITH_CURRENT_BAND",
+  "context":"compared against BAND-MLE-L2-AUS-2025"
+ },
+ {
+  "gt_id":"GT-00116",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-000035-2026-10",
+  "issue_type":"FTE_IGNORED",
+  "expected_detection_rule":"fte_applied = 0 and fte < 1",
+  "expected_decision":"RECOMPUTE_WITH_FTE_NORMALIZATION",
+  "context":"raw part-time pay used (fte=0.8)"
+ },
+ {
+  "gt_id":"GT-00117",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-000200-2026-10",
+  "issue_type":"FTE_IGNORED",
+  "expected_detection_rule":"fte_applied = 0 and fte < 1",
+  "expected_decision":"RECOMPUTE_WITH_FTE_NORMALIZATION",
+  "context":"raw part-time pay used (fte=0.8)"
+ },
+ {
+  "gt_id":"GT-00118",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-000309-2026-10",
+  "issue_type":"FTE_IGNORED",
+  "expected_detection_rule":"fte_applied = 0 and fte < 1",
+  "expected_decision":"RECOMPUTE_WITH_FTE_NORMALIZATION",
+  "context":"raw part-time pay used (fte=0.8)"
+ },
+ {
+  "gt_id":"GT-00119",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-000575-2026-10",
+  "issue_type":"FTE_IGNORED",
+  "expected_detection_rule":"fte_applied = 0 and fte < 1",
+  "expected_decision":"RECOMPUTE_WITH_FTE_NORMALIZATION",
+  "context":"raw part-time pay used (fte=0.5)"
+ },
+ {
+  "gt_id":"GT-00120",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-000677-2026-10",
+  "issue_type":"FTE_IGNORED",
+  "expected_detection_rule":"fte_applied = 0 and fte < 1",
+  "expected_decision":"RECOMPUTE_WITH_FTE_NORMALIZATION",
+  "context":"raw part-time pay used (fte=0.6)"
+ },
+ {
+  "gt_id":"GT-00121",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-000733-2026-10",
+  "issue_type":"FTE_IGNORED",
+  "expected_detection_rule":"fte_applied = 0 and fte < 1",
+  "expected_decision":"RECOMPUTE_WITH_FTE_NORMALIZATION",
+  "context":"raw part-time pay used (fte=0.8)"
+ },
+ {
+  "gt_id":"GT-00122",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-000748-2026-10",
+  "issue_type":"FTE_IGNORED",
+  "expected_detection_rule":"fte_applied = 0 and fte < 1",
+  "expected_decision":"RECOMPUTE_WITH_FTE_NORMALIZATION",
+  "context":"raw part-time pay used (fte=0.5)"
+ },
+ {
+  "gt_id":"GT-00123",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-000807-2026-10",
+  "issue_type":"FTE_IGNORED",
+  "expected_detection_rule":"fte_applied = 0 and fte < 1",
+  "expected_decision":"RECOMPUTE_WITH_FTE_NORMALIZATION",
+  "context":"raw part-time pay used (fte=0.5)"
+ },
+ {
+  "gt_id":"GT-00124",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-000950-2026-10",
+  "issue_type":"FTE_IGNORED",
+  "expected_detection_rule":"fte_applied = 0 and fte < 1",
+  "expected_decision":"RECOMPUTE_WITH_FTE_NORMALIZATION",
+  "context":"raw part-time pay used (fte=0.5)"
+ },
+ {
+  "gt_id":"GT-00125",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-001266-2026-10",
+  "issue_type":"FTE_IGNORED",
+  "expected_detection_rule":"fte_applied = 0 and fte < 1",
+  "expected_decision":"RECOMPUTE_WITH_FTE_NORMALIZATION",
+  "context":"raw part-time pay used (fte=0.6)"
+ },
+ {
+  "gt_id":"GT-00126",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-001318-2026-10",
+  "issue_type":"FTE_IGNORED",
+  "expected_detection_rule":"fte_applied = 0 and fte < 1",
+  "expected_decision":"RECOMPUTE_WITH_FTE_NORMALIZATION",
+  "context":"raw part-time pay used (fte=0.8)"
+ },
+ {
+  "gt_id":"GT-00127",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-001567-2026-10",
+  "issue_type":"FTE_IGNORED",
+  "expected_detection_rule":"fte_applied = 0 and fte < 1",
+  "expected_decision":"RECOMPUTE_WITH_FTE_NORMALIZATION",
+  "context":"raw part-time pay used (fte=0.5)"
+ },
+ {
+  "gt_id":"GT-00128",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-001671-2026-10",
+  "issue_type":"FTE_IGNORED",
+  "expected_detection_rule":"fte_applied = 0 and fte < 1",
+  "expected_decision":"RECOMPUTE_WITH_FTE_NORMALIZATION",
+  "context":"raw part-time pay used (fte=0.8)"
+ },
+ {
+  "gt_id":"GT-00129",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-001724-2026-10",
+  "issue_type":"FTE_IGNORED",
+  "expected_detection_rule":"fte_applied = 0 and fte < 1",
+  "expected_decision":"RECOMPUTE_WITH_FTE_NORMALIZATION",
+  "context":"raw part-time pay used (fte=0.5)"
+ },
+ {
+  "gt_id":"GT-00130",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-001820-2026-10",
+  "issue_type":"FTE_IGNORED",
+  "expected_detection_rule":"fte_applied = 0 and fte < 1",
+  "expected_decision":"RECOMPUTE_WITH_FTE_NORMALIZATION",
+  "context":"raw part-time pay used (fte=0.8)"
+ },
+ {
+  "gt_id":"GT-00131",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-002403-2026-10",
+  "issue_type":"FTE_IGNORED",
+  "expected_detection_rule":"fte_applied = 0 and fte < 1",
+  "expected_decision":"RECOMPUTE_WITH_FTE_NORMALIZATION",
+  "context":"raw part-time pay used (fte=0.8)"
+ },
+ {
+  "gt_id":"GT-00132",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-002427-2026-10",
+  "issue_type":"FTE_IGNORED",
+  "expected_detection_rule":"fte_applied = 0 and fte < 1",
+  "expected_decision":"RECOMPUTE_WITH_FTE_NORMALIZATION",
+  "context":"raw part-time pay used (fte=0.5)"
+ },
+ {
+  "gt_id":"GT-00133",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-002621-2026-10",
+  "issue_type":"FTE_IGNORED",
+  "expected_detection_rule":"fte_applied = 0 and fte < 1",
+  "expected_decision":"RECOMPUTE_WITH_FTE_NORMALIZATION",
+  "context":"raw part-time pay used (fte=0.8)"
+ },
+ {
+  "gt_id":"GT-00134",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-002841-2026-10",
+  "issue_type":"FTE_IGNORED",
+  "expected_detection_rule":"fte_applied = 0 and fte < 1",
+  "expected_decision":"RECOMPUTE_WITH_FTE_NORMALIZATION",
+  "context":"raw part-time pay used (fte=0.6)"
+ },
+ {
+  "gt_id":"GT-00135",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-002874-2026-10",
+  "issue_type":"FTE_IGNORED",
+  "expected_detection_rule":"fte_applied = 0 and fte < 1",
+  "expected_decision":"RECOMPUTE_WITH_FTE_NORMALIZATION",
+  "context":"raw part-time pay used (fte=0.6)"
+ },
+ {
+  "gt_id":"GT-00136",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-003151-2026-10",
+  "issue_type":"FTE_IGNORED",
+  "expected_detection_rule":"fte_applied = 0 and fte < 1",
+  "expected_decision":"RECOMPUTE_WITH_FTE_NORMALIZATION",
+  "context":"raw part-time pay used (fte=0.6)"
+ },
+ {
+  "gt_id":"GT-00137",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-003421-2026-10",
+  "issue_type":"FTE_IGNORED",
+  "expected_detection_rule":"fte_applied = 0 and fte < 1",
+  "expected_decision":"RECOMPUTE_WITH_FTE_NORMALIZATION",
+  "context":"raw part-time pay used (fte=0.6)"
+ },
+ {
+  "gt_id":"GT-00138",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-003516-2026-10",
+  "issue_type":"FTE_IGNORED",
+  "expected_detection_rule":"fte_applied = 0 and fte < 1",
+  "expected_decision":"RECOMPUTE_WITH_FTE_NORMALIZATION",
+  "context":"raw part-time pay used (fte=0.6)"
+ },
+ {
+  "gt_id":"GT-00139",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-003578-2026-10",
+  "issue_type":"FTE_IGNORED",
+  "expected_detection_rule":"fte_applied = 0 and fte < 1",
+  "expected_decision":"RECOMPUTE_WITH_FTE_NORMALIZATION",
+  "context":"raw part-time pay used (fte=0.6)"
+ },
+ {
+  "gt_id":"GT-00140",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-003581-2026-10",
+  "issue_type":"FTE_IGNORED",
+  "expected_detection_rule":"fte_applied = 0 and fte < 1",
+  "expected_decision":"RECOMPUTE_WITH_FTE_NORMALIZATION",
+  "context":"raw part-time pay used (fte=0.8)"
+ },
+ {
+  "gt_id":"GT-00141",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-003957-2026-10",
+  "issue_type":"FTE_IGNORED",
+  "expected_detection_rule":"fte_applied = 0 and fte < 1",
+  "expected_decision":"RECOMPUTE_WITH_FTE_NORMALIZATION",
+  "context":"raw part-time pay used (fte=0.6)"
+ },
+ {
+  "gt_id":"GT-00142",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-004213-2026-10",
+  "issue_type":"FTE_IGNORED",
+  "expected_detection_rule":"fte_applied = 0 and fte < 1",
+  "expected_decision":"RECOMPUTE_WITH_FTE_NORMALIZATION",
+  "context":"raw part-time pay used (fte=0.5)"
+ },
+ {
+  "gt_id":"GT-00143",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-004244-2026-10",
+  "issue_type":"FTE_IGNORED",
+  "expected_detection_rule":"fte_applied = 0 and fte < 1",
+  "expected_decision":"RECOMPUTE_WITH_FTE_NORMALIZATION",
+  "context":"raw part-time pay used (fte=0.8)"
+ },
+ {
+  "gt_id":"GT-00144",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-004261-2026-10",
+  "issue_type":"FTE_IGNORED",
+  "expected_detection_rule":"fte_applied = 0 and fte < 1",
+  "expected_decision":"RECOMPUTE_WITH_FTE_NORMALIZATION",
+  "context":"raw part-time pay used (fte=0.6)"
+ },
+ {
+  "gt_id":"GT-00145",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-004285-2026-10",
+  "issue_type":"FTE_IGNORED",
+  "expected_detection_rule":"fte_applied = 0 and fte < 1",
+  "expected_decision":"RECOMPUTE_WITH_FTE_NORMALIZATION",
+  "context":"raw part-time pay used (fte=0.8)"
+ },
+ {
+  "gt_id":"GT-00146",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-004392-2026-10",
+  "issue_type":"FTE_IGNORED",
+  "expected_detection_rule":"fte_applied = 0 and fte < 1",
+  "expected_decision":"RECOMPUTE_WITH_FTE_NORMALIZATION",
+  "context":"raw part-time pay used (fte=0.5)"
+ },
+ {
+  "gt_id":"GT-00147",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-004476-2026-10",
+  "issue_type":"FTE_IGNORED",
+  "expected_detection_rule":"fte_applied = 0 and fte < 1",
+  "expected_decision":"RECOMPUTE_WITH_FTE_NORMALIZATION",
+  "context":"raw part-time pay used (fte=0.8)"
+ },
+ {
+  "gt_id":"GT-00148",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-004478-2026-10",
+  "issue_type":"FTE_IGNORED",
+  "expected_detection_rule":"fte_applied = 0 and fte < 1",
+  "expected_decision":"RECOMPUTE_WITH_FTE_NORMALIZATION",
+  "context":"raw part-time pay used (fte=0.8)"
+ },
+ {
+  "gt_id":"GT-00149",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-004575-2026-10",
+  "issue_type":"FTE_IGNORED",
+  "expected_detection_rule":"fte_applied = 0 and fte < 1",
+  "expected_decision":"RECOMPUTE_WITH_FTE_NORMALIZATION",
+  "context":"raw part-time pay used (fte=0.8)"
+ },
+ {
+  "gt_id":"GT-00150",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-004670-2026-10",
+  "issue_type":"FTE_IGNORED",
+  "expected_detection_rule":"fte_applied = 0 and fte < 1",
+  "expected_decision":"RECOMPUTE_WITH_FTE_NORMALIZATION",
+  "context":"raw part-time pay used (fte=0.8)"
+ },
+ {
+  "gt_id":"GT-00151",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-004686-2026-10",
+  "issue_type":"FTE_IGNORED",
+  "expected_detection_rule":"fte_applied = 0 and fte < 1",
+  "expected_decision":"RECOMPUTE_WITH_FTE_NORMALIZATION",
+  "context":"raw part-time pay used (fte=0.5)"
+ },
+ {
+  "gt_id":"GT-00152",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-004744-2026-10",
+  "issue_type":"FTE_IGNORED",
+  "expected_detection_rule":"fte_applied = 0 and fte < 1",
+  "expected_decision":"RECOMPUTE_WITH_FTE_NORMALIZATION",
+  "context":"raw part-time pay used (fte=0.5)"
+ },
+ {
+  "gt_id":"GT-00153",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-004909-2026-10",
+  "issue_type":"FTE_IGNORED",
+  "expected_detection_rule":"fte_applied = 0 and fte < 1",
+  "expected_decision":"RECOMPUTE_WITH_FTE_NORMALIZATION",
+  "context":"raw part-time pay used (fte=0.6)"
+ },
+ {
+  "gt_id":"GT-00154",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-004914-2026-10",
+  "issue_type":"FTE_IGNORED",
+  "expected_detection_rule":"fte_applied = 0 and fte < 1",
+  "expected_decision":"RECOMPUTE_WITH_FTE_NORMALIZATION",
+  "context":"raw part-time pay used (fte=0.5)"
+ },
+ {
+  "gt_id":"GT-00155",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-004971-2026-10",
+  "issue_type":"FTE_IGNORED",
+  "expected_detection_rule":"fte_applied = 0 and fte < 1",
+  "expected_decision":"RECOMPUTE_WITH_FTE_NORMALIZATION",
+  "context":"raw part-time pay used (fte=0.6)"
+ },
+ {
+  "gt_id":"GT-00156",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-000256-2026-10",
+  "issue_type":"CURRENCY_CONVERSION_MISSING",
+  "expected_detection_rule":"salary_currency != USD and fx_applied = 0",
+  "expected_decision":"RECOMPUTE_WITH_FX_CONVERSION",
+  "context":"INR salary compared against USD band BAND-SWE-L2-NYC-2026"
+ },
+ {
+  "gt_id":"GT-00157",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-000535-2026-10",
+  "issue_type":"CURRENCY_CONVERSION_MISSING",
+  "expected_detection_rule":"salary_currency != USD and fx_applied = 0",
+  "expected_decision":"RECOMPUTE_WITH_FX_CONVERSION",
+  "context":"INR salary compared against USD band BAND-BIAN-L1-NYC-2026"
+ },
+ {
+  "gt_id":"GT-00158",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-000966-2026-10",
+  "issue_type":"CURRENCY_CONVERSION_MISSING",
+  "expected_detection_rule":"salary_currency != USD and fx_applied = 0",
+  "expected_decision":"RECOMPUTE_WITH_FX_CONVERSION",
+  "context":"INR salary compared against USD band BAND-DENG-L1-NYC-2026"
+ },
+ {
+  "gt_id":"GT-00159",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-001110-2026-10",
+  "issue_type":"CURRENCY_CONVERSION_MISSING",
+  "expected_detection_rule":"salary_currency != USD and fx_applied = 0",
+  "expected_decision":"RECOMPUTE_WITH_FX_CONVERSION",
+  "context":"INR salary compared against USD band BAND-DSCI-L1-NYC-2026"
+ },
+ {
+  "gt_id":"GT-00160",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-001222-2026-10",
+  "issue_type":"CURRENCY_CONVERSION_MISSING",
+  "expected_detection_rule":"salary_currency != USD and fx_applied = 0",
+  "expected_decision":"RECOMPUTE_WITH_FX_CONVERSION",
+  "context":"INR salary compared against USD band BAND-UXD-L5-NYC-2026"
+ },
+ {
+  "gt_id":"GT-00161",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-001419-2026-10",
+  "issue_type":"CURRENCY_CONVERSION_MISSING",
+  "expected_detection_rule":"salary_currency != USD and fx_applied = 0",
+  "expected_decision":"RECOMPUTE_WITH_FX_CONVERSION",
+  "context":"CAD salary compared against USD band BAND-TWR-L3-NYC-2026"
+ },
+ {
+  "gt_id":"GT-00162",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-001466-2026-10",
+  "issue_type":"CURRENCY_CONVERSION_MISSING",
+  "expected_detection_rule":"salary_currency != USD and fx_applied = 0",
+  "expected_decision":"RECOMPUTE_WITH_FX_CONVERSION",
+  "context":"EUR salary compared against USD band BAND-DSCI-L3-NYC-2026"
+ },
+ {
+  "gt_id":"GT-00163",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-001528-2026-10",
+  "issue_type":"CURRENCY_CONVERSION_MISSING",
+  "expected_detection_rule":"salary_currency != USD and fx_applied = 0",
+  "expected_decision":"RECOMPUTE_WITH_FX_CONVERSION",
+  "context":"INR salary compared against USD band BAND-RECR-L8-NYC-2026"
+ },
+ {
+  "gt_id":"GT-00164",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-001718-2026-10",
+  "issue_type":"CURRENCY_CONVERSION_MISSING",
+  "expected_detection_rule":"salary_currency != USD and fx_applied = 0",
+  "expected_decision":"RECOMPUTE_WITH_FX_CONVERSION",
+  "context":"EUR salary compared against USD band BAND-QAE-L2-NYC-2026"
+ },
+ {
+  "gt_id":"GT-00165",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-001786-2026-10",
+  "issue_type":"CURRENCY_CONVERSION_MISSING",
+  "expected_detection_rule":"salary_currency != USD and fx_applied = 0",
+  "expected_decision":"RECOMPUTE_WITH_FX_CONVERSION",
+  "context":"SGD salary compared against USD band BAND-SWE-L4-NYC-2026"
+ },
+ {
+  "gt_id":"GT-00166",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-001824-2026-10",
+  "issue_type":"CURRENCY_CONVERSION_MISSING",
+  "expected_detection_rule":"salary_currency != USD and fx_applied = 0",
+  "expected_decision":"RECOMPUTE_WITH_FX_CONVERSION",
+  "context":"INR salary compared against USD band BAND-DANL-L3-NYC-2026"
+ },
+ {
+  "gt_id":"GT-00167",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-001851-2026-10",
+  "issue_type":"CURRENCY_CONVERSION_MISSING",
+  "expected_detection_rule":"salary_currency != USD and fx_applied = 0",
+  "expected_decision":"RECOMPUTE_WITH_FX_CONVERSION",
+  "context":"SGD salary compared against USD band BAND-PM-L3-NYC-2026"
+ },
+ {
+  "gt_id":"GT-00168",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-002433-2026-10",
+  "issue_type":"CURRENCY_CONVERSION_MISSING",
+  "expected_detection_rule":"salary_currency != USD and fx_applied = 0",
+  "expected_decision":"RECOMPUTE_WITH_FX_CONVERSION",
+  "context":"SGD salary compared against USD band BAND-SUPP-L3-NYC-2026"
+ },
+ {
+  "gt_id":"GT-00169",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-002547-2026-10",
+  "issue_type":"CURRENCY_CONVERSION_MISSING",
+  "expected_detection_rule":"salary_currency != USD and fx_applied = 0",
+  "expected_decision":"RECOMPUTE_WITH_FX_CONVERSION",
+  "context":"INR salary compared against USD band BAND-ACCT-L2-NYC-2026"
+ },
+ {
+  "gt_id":"GT-00170",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-002567-2026-10",
+  "issue_type":"CURRENCY_CONVERSION_MISSING",
+  "expected_detection_rule":"salary_currency != USD and fx_applied = 0",
+  "expected_decision":"RECOMPUTE_WITH_FX_CONVERSION",
+  "context":"INR salary compared against USD band BAND-PM-L2-NYC-2026"
+ },
+ {
+  "gt_id":"GT-00171",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-002600-2026-10",
+  "issue_type":"CURRENCY_CONVERSION_MISSING",
+  "expected_detection_rule":"salary_currency != USD and fx_applied = 0",
+  "expected_decision":"RECOMPUTE_WITH_FX_CONVERSION",
+  "context":"GBP salary compared against USD band BAND-PM-L3-NYC-2026"
+ },
+ {
+  "gt_id":"GT-00172",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-002649-2026-10",
+  "issue_type":"CURRENCY_CONVERSION_MISSING",
+  "expected_detection_rule":"salary_currency != USD and fx_applied = 0",
+  "expected_decision":"RECOMPUTE_WITH_FX_CONVERSION",
+  "context":"GBP salary compared against USD band BAND-OPSA-L1-NYC-2026"
+ },
+ {
+  "gt_id":"GT-00173",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-002734-2026-10",
+  "issue_type":"CURRENCY_CONVERSION_MISSING",
+  "expected_detection_rule":"salary_currency != USD and fx_applied = 0",
+  "expected_decision":"RECOMPUTE_WITH_FX_CONVERSION",
+  "context":"INR salary compared against USD band BAND-DSCI-L2-NYC-2026"
+ },
+ {
+  "gt_id":"GT-00174",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-002789-2026-10",
+  "issue_type":"CURRENCY_CONVERSION_MISSING",
+  "expected_detection_rule":"salary_currency != USD and fx_applied = 0",
+  "expected_decision":"RECOMPUTE_WITH_FX_CONVERSION",
+  "context":"INR salary compared against USD band BAND-SUPP-L3-NYC-2026"
+ },
+ {
+  "gt_id":"GT-00175",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-002803-2026-10",
+  "issue_type":"CURRENCY_CONVERSION_MISSING",
+  "expected_detection_rule":"salary_currency != USD and fx_applied = 0",
+  "expected_decision":"RECOMPUTE_WITH_FX_CONVERSION",
+  "context":"INR salary compared against USD band BAND-QAE-L3-NYC-2026"
+ },
+ {
+  "gt_id":"GT-00176",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-002862-2026-10",
+  "issue_type":"CURRENCY_CONVERSION_MISSING",
+  "expected_detection_rule":"salary_currency != USD and fx_applied = 0",
+  "expected_decision":"RECOMPUTE_WITH_FX_CONVERSION",
+  "context":"INR salary compared against USD band BAND-DSCI-L3-NYC-2026"
+ },
+ {
+  "gt_id":"GT-00177",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-002991-2026-10",
+  "issue_type":"CURRENCY_CONVERSION_MISSING",
+  "expected_detection_rule":"salary_currency != USD and fx_applied = 0",
+  "expected_decision":"RECOMPUTE_WITH_FX_CONVERSION",
+  "context":"INR salary compared against USD band BAND-SWE-L3-NYC-2026"
+ },
+ {
+  "gt_id":"GT-00178",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-003254-2026-10",
+  "issue_type":"CURRENCY_CONVERSION_MISSING",
+  "expected_detection_rule":"salary_currency != USD and fx_applied = 0",
+  "expected_decision":"RECOMPUTE_WITH_FX_CONVERSION",
+  "context":"CAD salary compared against USD band BAND-SREP-L3-NYC-2026"
+ },
+ {
+  "gt_id":"GT-00179",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-003331-2026-10",
+  "issue_type":"CURRENCY_CONVERSION_MISSING",
+  "expected_detection_rule":"salary_currency != USD and fx_applied = 0",
+  "expected_decision":"RECOMPUTE_WITH_FX_CONVERSION",
+  "context":"INR salary compared against USD band BAND-SREP-L4-NYC-2026"
+ },
+ {
+  "gt_id":"GT-00180",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-003750-2026-10",
+  "issue_type":"CURRENCY_CONVERSION_MISSING",
+  "expected_detection_rule":"salary_currency != USD and fx_applied = 0",
+  "expected_decision":"RECOMPUTE_WITH_FX_CONVERSION",
+  "context":"INR salary compared against USD band BAND-DENG-L2-NYC-2026"
+ },
+ {
+  "gt_id":"GT-00181",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-003931-2026-10",
+  "issue_type":"CURRENCY_CONVERSION_MISSING",
+  "expected_detection_rule":"salary_currency != USD and fx_applied = 0",
+  "expected_decision":"RECOMPUTE_WITH_FX_CONVERSION",
+  "context":"INR salary compared against USD band BAND-MKTG-L5-NYC-2026"
+ },
+ {
+  "gt_id":"GT-00182",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-004359-2026-10",
+  "issue_type":"CURRENCY_CONVERSION_MISSING",
+  "expected_detection_rule":"salary_currency != USD and fx_applied = 0",
+  "expected_decision":"RECOMPUTE_WITH_FX_CONVERSION",
+  "context":"INR salary compared against USD band BAND-MKTG-L6-NYC-2026"
+ },
+ {
+  "gt_id":"GT-00183",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-004518-2026-10",
+  "issue_type":"CURRENCY_CONVERSION_MISSING",
+  "expected_detection_rule":"salary_currency != USD and fx_applied = 0",
+  "expected_decision":"RECOMPUTE_WITH_FX_CONVERSION",
+  "context":"INR salary compared against USD band BAND-HRP-L2-NYC-2026"
+ },
+ {
+  "gt_id":"GT-00184",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-004716-2026-10",
+  "issue_type":"CURRENCY_CONVERSION_MISSING",
+  "expected_detection_rule":"salary_currency != USD and fx_applied = 0",
+  "expected_decision":"RECOMPUTE_WITH_FX_CONVERSION",
+  "context":"INR salary compared against USD band BAND-PM-L3-NYC-2026"
+ },
+ {
+  "gt_id":"GT-00185",
+  "entity_type":"SNAPSHOT",
+  "entity_id":"CRS-EMP-004968-2026-10",
+  "issue_type":"CURRENCY_CONVERSION_MISSING",
+  "expected_detection_rule":"salary_currency != USD and fx_applied = 0",
+  "expected_decision":"RECOMPUTE_WITH_FX_CONVERSION",
+  "context":"INR salary compared against USD band BAND-ACCT-L3-NYC-2026"
+ },
+ {
+  "gt_id":"GT-00186",
+  "entity_type":"GROUP",
+  "entity_id":"CG-MANUAL-0001",
+  "issue_type":"INCOMPARABLE_GROUP_NO_RATIONALE",
+  "expected_detection_rule":"group spans >1 role family and rationale is null",
+  "expected_decision":"DISSOLVE_OR_DOCUMENT_RATIONALE",
+  "context":"mixed families DATA + OPS, no rationale"
+ },
+ {
+  "gt_id":"GT-00187",
+  "entity_type":"GROUP",
+  "entity_id":"CG-MANUAL-0002",
+  "issue_type":"INCOMPARABLE_GROUP_NO_RATIONALE",
+  "expected_detection_rule":"group spans >1 role family and rationale is null",
+  "expected_decision":"DISSOLVE_OR_DOCUMENT_RATIONALE",
+  "context":"mixed families GTM + PRD, no rationale"
+ },
+ {
+  "gt_id":"GT-00188",
+  "entity_type":"GROUP",
+  "entity_id":"CG-MANUAL-0003",
+  "issue_type":"INCOMPARABLE_GROUP_NO_RATIONALE",
+  "expected_detection_rule":"group spans >1 role family and rationale is null",
+  "expected_decision":"DISSOLVE_OR_DOCUMENT_RATIONALE",
+  "context":"mixed families GTM + PRD, no rationale"
+ },
+ {
+  "gt_id":"GT-00189",
+  "entity_type":"GROUP",
+  "entity_id":"CG-MANUAL-0004",
+  "issue_type":"INCOMPARABLE_GROUP_NO_RATIONALE",
+  "expected_detection_rule":"group spans >1 role family and rationale is null",
+  "expected_decision":"DISSOLVE_OR_DOCUMENT_RATIONALE",
+  "context":"mixed families OPS + PPL, no rationale"
+ },
+ {
+  "gt_id":"GT-00190",
+  "entity_type":"GROUP",
+  "entity_id":"CG-MANUAL-0005",
+  "issue_type":"INCOMPARABLE_GROUP_NO_RATIONALE",
+  "expected_detection_rule":"group spans >1 role family and rationale is null",
+  "expected_decision":"DISSOLVE_OR_DOCUMENT_RATIONALE",
+  "context":"mixed families ENG + PPL, no rationale"
+ },
+ {
+  "gt_id":"GT-00191",
+  "entity_type":"GROUP",
+  "entity_id":"CG-MANUAL-0006",
+  "issue_type":"INCOMPARABLE_GROUP_NO_RATIONALE",
+  "expected_detection_rule":"group spans >1 role family and rationale is null",
+  "expected_decision":"DISSOLVE_OR_DOCUMENT_RATIONALE",
+  "context":"mixed families DATA + PRD, no rationale"
+ },
+ {
+  "gt_id":"GT-00192",
+  "entity_type":"GROUP",
+  "entity_id":"CG-MANUAL-0007",
+  "issue_type":"INCOMPARABLE_GROUP_NO_RATIONALE",
+  "expected_detection_rule":"group spans >1 role family and rationale is null",
+  "expected_decision":"DISSOLVE_OR_DOCUMENT_RATIONALE",
+  "context":"mixed families DATA + OPS, no rationale"
+ },
+ {
+  "gt_id":"GT-00193",
+  "entity_type":"GROUP",
+  "entity_id":"CG-MANUAL-0008",
+  "issue_type":"INCOMPARABLE_GROUP_NO_RATIONALE",
+  "expected_detection_rule":"group spans >1 role family and rationale is null",
+  "expected_decision":"DISSOLVE_OR_DOCUMENT_RATIONALE",
+  "context":"mixed families DATA + ENG, no rationale"
+ },
+ {
+  "gt_id":"GT-00194",
+  "entity_type":"PROPOSAL",
+  "entity_id":"ADJ-2026-000004",
+  "issue_type":"ADJUSTMENT_WITHOUT_APPROVAL",
+  "expected_detection_rule":"status = APPLIED and no MANAGER_APPROVED\/HR_APPROVED events",
+  "expected_decision":"REVERSE_AND_ESCALATE_TO_AUDIT",
+  "context":"approval stages skipped before payroll application"
+ },
+ {
+  "gt_id":"GT-00195",
+  "entity_type":"PROPOSAL",
+  "entity_id":"ADJ-2026-000008",
+  "issue_type":"ADJUSTMENT_WITHOUT_APPROVAL",
+  "expected_detection_rule":"status = APPLIED and no MANAGER_APPROVED\/HR_APPROVED events",
+  "expected_decision":"REVERSE_AND_ESCALATE_TO_AUDIT",
+  "context":"approval stages skipped before payroll application"
+ },
+ {
+  "gt_id":"GT-00196",
+  "entity_type":"PROPOSAL",
+  "entity_id":"ADJ-2026-000027",
+  "issue_type":"ADJUSTMENT_WITHOUT_APPROVAL",
+  "expected_detection_rule":"status = APPLIED and no MANAGER_APPROVED\/HR_APPROVED events",
+  "expected_decision":"REVERSE_AND_ESCALATE_TO_AUDIT",
+  "context":"approval stages skipped before payroll application"
+ },
+ {
+  "gt_id":"GT-00197",
+  "entity_type":"PROPOSAL",
+  "entity_id":"ADJ-2026-000031",
+  "issue_type":"ADJUSTMENT_WITHOUT_APPROVAL",
+  "expected_detection_rule":"status = APPLIED and no MANAGER_APPROVED\/HR_APPROVED events",
+  "expected_decision":"REVERSE_AND_ESCALATE_TO_AUDIT",
+  "context":"approval stages skipped before payroll application"
+ },
+ {
+  "gt_id":"GT-00198",
+  "entity_type":"PROPOSAL",
+  "entity_id":"ADJ-2026-000055",
+  "issue_type":"ADJUSTMENT_WITHOUT_APPROVAL",
+  "expected_detection_rule":"status = APPLIED and no MANAGER_APPROVED\/HR_APPROVED events",
+  "expected_decision":"REVERSE_AND_ESCALATE_TO_AUDIT",
+  "context":"approval stages skipped before payroll application"
+ },
+ {
+  "gt_id":"GT-00199",
+  "entity_type":"PROPOSAL",
+  "entity_id":"ADJ-2026-000058",
+  "issue_type":"ADJUSTMENT_WITHOUT_APPROVAL",
+  "expected_detection_rule":"status = APPLIED and no MANAGER_APPROVED\/HR_APPROVED events",
+  "expected_decision":"REVERSE_AND_ESCALATE_TO_AUDIT",
+  "context":"approval stages skipped before payroll application"
+ },
+ {
+  "gt_id":"GT-00200",
+  "entity_type":"PROPOSAL",
+  "entity_id":"ADJ-2026-000069",
+  "issue_type":"ADJUSTMENT_WITHOUT_APPROVAL",
+  "expected_detection_rule":"status = APPLIED and no MANAGER_APPROVED\/HR_APPROVED events",
+  "expected_decision":"REVERSE_AND_ESCALATE_TO_AUDIT",
+  "context":"approval stages skipped before payroll application"
+ }
+]
