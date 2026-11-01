@@ -122,11 +122,11 @@
       "L9": 0
     },
     "model": {
-      "intercept": -0.00917885205022885,
-      "premium_coef": 0.8695695893025785,
-      "rating_coef": 0.05060386832271632,
-      "robust_sigma": 0.036943113373883445,
-      "tenure_coef": 0.012769824991607677,
+      "intercept": -0.009178852050228826,
+      "premium_coef": 0.8695695893025787,
+      "rating_coef": 0.05060386832271635,
+      "robust_sigma": 0.03694311337388343,
+      "tenure_coef": 0.01276982499160767,
       "z_threshold": 3.5
     },
     "pct_in_band_clean_rows": 0.8919,
