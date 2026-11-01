@@ -80,3 +80,14 @@ Review the complete application against the original requirements. Identify miss
 ### 10. Important Note
 
 AI wrote almost all of the backend code, tests, documentation and the dashboards (React + JavaScript, plus an earlier offline HTML version that has since been removed). I gave the direction, ran and verified the results on my own machine, and own the submission. This matches `AI_USAGE.md`.
+
+### 11. Why FastAPI Is Not Used
+
+FastAPI is not needed to build this project, so I did not use it.
+
+- The Python generator runs from the command line and writes its results as CSV, JSON and SQL files.
+- The React dashboard loads those generated files directly with `fetch`, so it does not call a backend API.
+- The dashboard only reads the data. It has no logins and does not save changes, so there is nothing for an API to handle.
+- Leaving out a backend server keeps the project simpler to run and check: the core needs only Python, and the dashboard needs only Node.js.
+
+FastAPI would be useful if the app later needs live queries, user logins or saving approval decisions.
