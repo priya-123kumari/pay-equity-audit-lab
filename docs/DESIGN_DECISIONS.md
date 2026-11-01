@@ -40,3 +40,4 @@ a separate ground truth. Correctness and traceability matter more than a UI (no 
 - Single snapshot date; no monthly time series of gaps.
 - Approval timing uses fixed SLA offsets rather than simulated workloads.
 - The dashboard is an optional extra; the core deliverable needs only Python.
+# dashboard is for only clear visualization as it is not require.
